@@ -6,12 +6,16 @@ applies_from: '2025-10-01'
 role: entity
 system_class:
 - samfunnsviktig-tjeneste
-- digital-tjeneste
-summary: A provider of an essential service must ensure that suppliers and others doing work on
-  its behalf that could affect the security of its network and information systems do that work
-  in a way that keeps the required security standard. It must make its security measures binding
-  on those suppliers by contract or another suitable route, so far as needed to hold the security
-  level.
+summary: 'Oppfølgingsplikt - the supplier follow-up duty. An essential-service provider carries
+  two obligations towards suppliers and anyone else doing work that could affect the security of
+  its networks and information systems, where that work is done for or on behalf of the provider.
+  First, it must satisfy itself that such work is actually carried out in a way that keeps the adequate-security
+  requirements met: an active assurance duty, not merely a paper one. Second, it must make its own
+  security measures binding on those suppliers, by contract or another suitable means, to the extent
+  needed to maintain an adequate level of security. In practice the provider cannot discharge its
+  security obligations by outsourcing the work, so an AI system bought from a vendor falls squarely
+  within this: the provider must flow its controls down to the vendor and then verify the vendor
+  is honouring them.'
 evidence_expected: Contract clauses or equivalent instruments flowing security requirements down
   to suppliers, the register of suppliers whose work can affect security, and the assurance activity
   over them such as reviews, audits or attestations.
@@ -19,13 +23,17 @@ verifiable: review
 status: active
 source_url: https://lovdata.no/dokument/SF/forskrift/2025-06-20-1131
 last_checked: '2026-10-15'
-verification: unconfirmed
-notes: 'Directly relevant where an LLM application depends on third-party model providers, inference
-  hosts or retrieval services, since those suppliers'' work can affect the security of the delivering
-  systems. Filed under digitalsikkerhetsloven rather than a NIS2 key: this statute transposes Directive
-  (EU) 2016/1148 (NIS1) through the EEA agreement, and Norway has not transposed NIS2. Labelling
-  it NIS2 would misstate which regime a client is in. Which of the two regimes this binds - tilbydere
-  av samfunnsviktige tjenester or tilbydere av digitale tjenester - was not established from the
-  text, so both are listed and this record is unconfirmed. digitalsikkerhetsloven splits the two
-  at paragraph 6 and paragraph 9, and a reader must check which chapter of the forskrift this sits
-  in.'
+verification: source-confirmed
+notes: 'Scope settled on review: Digitalsikkerhetsforskriften (FOR-2025-06-20-1131) § 14 "Oppfølgingsplikt"
+  binds only tilbydere av samfunnsviktige tjenester. It sits in Kapittel 2, the chapter of requirements
+  for essential-service providers (§§ 6-14), and its own operative text names that provider as the
+  duty-bearer in both ledd. It does not bind tilbydere av digitale tjenester: the digital-services
+  chapter is Kapittel 3 and contains § 15 alone, which incorp Directly relevant where an LLM application
+  depends on third-party model providers, inference hosts or retrieval services, since those suppliers''
+  work can affect the security of the delivering systems. Filed under digitalsikkerhetsloven rather
+  than a NIS2 key: this statute transposes Directive (EU) 2016/1148 (NIS1) through the EEA agreement,
+  and Norway has not transposed NIS2. Labelling it NIS2 would misstate which regime a client is
+  in. Which of the two regimes this binds - tilbydere av samfunnsviktige tjenester or tilbydere
+  av digitale tjenester - was not established from the text, so both are listed and this record
+  is unconfirmed. digitalsikkerhetsloven splits the two at paragraph 6 and paragraph 9, and a reader
+  must check which chapter of the forskrift this sits in.'

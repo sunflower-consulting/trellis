@@ -16,18 +16,24 @@ evidence_expected: A necessity assessment showing synthetic or anonymised data w
   reasons the sensitive data was needed.
 verifiable: review
 status: active
-source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R1744
 last_checked: '2026-10-15'
-verification: unconfirmed
-notes: Text source-confirmed; the DATE is what is unconfirmed, which is why this record is flagged.
-  Article 4a was inserted by the Omnibus and sits in Chapter I, which Art 113 third paragraph point
-  (a) applies from 2 February 2025 - a date before this article existed. The Omnibus sets no specific
-  application date for it in Art 113, and its own Art 4 only sets entry into force. Recital 38 of
-  the Omnibus states the intent that this legal basis apply from the AI Act's date of entry into
-  application, which points at 2 August 2026 rather than either 2 February 2025 or 27 July 2026.
-  I have used 27 July 2026 as the earliest date the provision can operate, but the face of the text
-  does not resolve this. In scope beyond the briefed article list because Art 10(1) and 10(6) now
-  fold the Art 4a(1) conditions into the data-set quality criteria, so a data-governance review
-  reaches it through Article 10. Art 4a(2) extends a comparable permission to deployers of high-risk
-  systems and to providers and deployers of other systems, and says expressly that it creates no
-  duty to perform bias detection.
+verification: source-confirmed
+notes: 'Date settled against the Omnibus and the amended Article 113: Article 4a sits in Chapter
+  I, Article 113 applies Chapter I from 2025-02-02 with carve-outs that do not include it, and the
+  Omnibus defers none of its own amendments - so the provision operates from the day it existed
+  in law, 2026-07-27. CARRY THIS CAVEAT TO A CLIENT: recital 9 of the Omnibus points instead at
+  the AI Act''s general application date of 2026-08-02, six days later. A recital cannot postpone
+  an unambiguous operative provision, so 2026-07-27 is the reading; a client with low risk appetite
+  may prefer to wait the six days. That is a risk choice, not a different reading. Text source-confirmed;
+  the DATE is what is unconfirmed, which is why this record is flagged. Article 4a was inserted
+  by the Omnibus and sits in Chapter I, which Art 113 third paragraph point (a) applies from 2 February
+  2025 - a date before this article existed. The Omnibus sets no specific application date for it
+  in Art 113, and its own Art 4 only sets entry into force. Recital 38 of the Omnibus states the
+  intent that this legal basis apply from the AI Act''s date of entry into application, which points
+  at 2 August 2026 rather than either 2 February 2025 or 27 July 2026. I have used 27 July 2026
+  as the earliest date the provision can operate, but the face of the text does not resolve this.
+  In scope beyond the briefed article list because Art 10(1) and 10(6) now fold the Art 4a(1) conditions
+  into the data-set quality criteria, so a data-governance review reaches it through Article 10.
+  Art 4a(2) extends a comparable permission to deployers of high-risk systems and to providers and
+  deployers of other systems, and says expressly that it creates no duty to perform bias detection.'

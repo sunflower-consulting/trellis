@@ -15,12 +15,14 @@ evidence_expected: The written procedure, showing its trigger points (for exampl
   rather than retrofitted.
 verifiable: review
 status: active
-source_url: https://www.isms.online/iso-42001/annex-a-controls/
+source_url: https://www.iso.org/standard/42001
 last_checked: '2026-10-15'
 verification: unconfirmed
-notes: 'Identifier and subject area corroborated by three independent secondary sources (isms.online,
-  Nemko, riskprofs); ISO''s own text could not be opened (403 on every iso.org path tried). Title
-  here is our own descriptive label, not the standard''s heading: sources disagree on the heading,
-  with at least one listing A.5.2 under a risk-assessment name. Classified review, not hybrid: the
-  control is the existence of a repeatable process, and no adversarial run can establish or disprove
-  that a process exists.'
+notes: 'ISO/IEC 42001:2023 is a paywalled standard (CHF 225 from ISO), and there is no free official
+  text of Annex A anywhere. The control''s own wording therefore cannot be read from an official
+  source, so the record cannot honestly be marked source-confirmed. Specifically, every official
+  route is gated: 1. ISO''s free "Read sample" reader at iso.org exposes the table of contents and
+  the informative front matter only. It stat Corroborated from independent certification-body sources
+  that the control exists and what area it covers; none of the standard''s wording appears here.
+  This record can never be source-confirmed while the standard is paywalled, and that is a property
+  of the standard rather than of our research.'

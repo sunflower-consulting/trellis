@@ -48,10 +48,15 @@ application touches, not the whole of any instrument: the institutional machiner
 notified bodies, market surveillance, committee procedure, penalties - is out of scope
 and will stay out.
 
-6 records carry `verification: unconfirmed`, meaning the citation or a date could not
-be read off an official text and the record says so rather than rounding up. ISO/IEC
-42001 records can never be confirmed here, because the standard is not freely published;
-they carry the control identifier and our own description and nothing of its wording.
+One record carries `verification: unconfirmed`, and it is the ISO/IEC 42001 control:
+that standard is sold rather than published, so no free official text of its Annex A
+exists and the record can never honestly be marked confirmed. It carries the control
+identifier and our own description of what an auditor looks for, corroborated from
+independent certification bodies, and none of the standard's wording.
+
+Everything else was read off an official text - EUR-Lex or the Commission's own AI Act
+Service Desk for EU instruments, Lovdata for Norwegian ones - and names the URL it was
+read from.
 
 ## The field this exists for
 

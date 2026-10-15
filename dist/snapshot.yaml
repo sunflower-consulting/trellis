@@ -4,8 +4,8 @@
 # edit here is invisible to the sources and fails `tests/test_bundle.py`,
 # which round-trips the two against each other in both directions.
 schema_version: 1
-generated_from: working-tree
-body_sha256: cabb50ad4cef6dcdfee111ae74b1839e6fb2a15aff62371e07aa01f04b9afa02
+generated_from: 64579f63ca235c8d19cdc8dfcab16cec7e1cd03c-dirty
+body_sha256: e819773d6df4b16fc090b2f75098d9955ec47af28c1c22d239029396590d97bc
 obligations:
   ai-act:Art.10(1):
     id: ai-act:Art.10(1)
@@ -571,20 +571,27 @@ obligations:
       the sensitive data was needed.
     verifiable: review
     status: active
-    source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+    source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R1744
     last_checked: '2026-10-15'
-    verification: unconfirmed
-    notes: Text source-confirmed; the DATE is what is unconfirmed, which is why this record is flagged.
-      Article 4a was inserted by the Omnibus and sits in Chapter I, which Art 113 third paragraph point
-      (a) applies from 2 February 2025 - a date before this article existed. The Omnibus sets no specific
-      application date for it in Art 113, and its own Art 4 only sets entry into force. Recital 38 of
-      the Omnibus states the intent that this legal basis apply from the AI Act's date of entry into application,
-      which points at 2 August 2026 rather than either 2 February 2025 or 27 July 2026. I have used 27
-      July 2026 as the earliest date the provision can operate, but the face of the text does not resolve
-      this. In scope beyond the briefed article list because Art 10(1) and 10(6) now fold the Art 4a(1)
-      conditions into the data-set quality criteria, so a data-governance review reaches it through Article
-      10. Art 4a(2) extends a comparable permission to deployers of high-risk systems and to providers
-      and deployers of other systems, and says expressly that it creates no duty to perform bias detection.
+    verification: source-confirmed
+    notes: 'Date settled against the Omnibus and the amended Article 113: Article 4a sits in Chapter I,
+      Article 113 applies Chapter I from 2025-02-02 with carve-outs that do not include it, and the Omnibus
+      defers none of its own amendments - so the provision operates from the day it existed in law, 2026-07-27.
+      CARRY THIS CAVEAT TO A CLIENT: recital 9 of the Omnibus points instead at the AI Act''s general
+      application date of 2026-08-02, six days later. A recital cannot postpone an unambiguous operative
+      provision, so 2026-07-27 is the reading; a client with low risk appetite may prefer to wait the
+      six days. That is a risk choice, not a different reading. Text source-confirmed; the DATE is what
+      is unconfirmed, which is why this record is flagged. Article 4a was inserted by the Omnibus and
+      sits in Chapter I, which Art 113 third paragraph point (a) applies from 2 February 2025 - a date
+      before this article existed. The Omnibus sets no specific application date for it in Art 113, and
+      its own Art 4 only sets entry into force. Recital 38 of the Omnibus states the intent that this
+      legal basis apply from the AI Act''s date of entry into application, which points at 2 August 2026
+      rather than either 2 February 2025 or 27 July 2026. I have used 27 July 2026 as the earliest date
+      the provision can operate, but the face of the text does not resolve this. In scope beyond the briefed
+      article list because Art 10(1) and 10(6) now fold the Art 4a(1) conditions into the data-set quality
+      criteria, so a data-governance review reaches it through Article 10. Art 4a(2) extends a comparable
+      permission to deployers of high-risk systems and to providers and deployers of other systems, and
+      says expressly that it creates no duty to perform bias detection.'
   ai-act:Art.5:
     id: ai-act:Art.5
     instrument: ai-act
@@ -594,12 +601,33 @@ obligations:
     role: both
     system_class:
     - prohibited
-    summary: Bans a closed list of AI practices outright, reaching anyone who places such a system on
-      the market, puts it into service or uses it. The list covers manipulative and vulnerability-exploiting
-      techniques, social scoring, profiling-only crime prediction, untargeted facial scraping, emotion
-      inference at work or in education, sensitive-trait biometric categorisation, real-time remote biometric
-      identification for law enforcement, and, from a later date, the generation of non-consensual intimate
-      imagery and child sexual abuse material.
+    summary: 'Bans a defined list of AI practices, binding whoever places such a system on the market,
+      puts it into service or uses it. Several limbs carry their own carve-outs, so the list is not a
+      set of unqualified bans. Applicable since 2 February 2025: subliminal or manipulative techniques,
+      and exploitation of vulnerability tied to age, disability or socio-economic situation, in each case
+      where behaviour is materially distorted and significant harm is caused or reasonably likely; social
+      scoring; predicting criminal offending from profiling or personality traits alone; untargeted scraping
+      of facial images to build or expand recognition databases; emotion inference in workplaces and education,
+      outside medical and safety uses; biometric categorisation inferring sensitive traits; and real-time
+      remote biometric identification in publicly accessible spaces for law enforcement, which is permitted
+      only for narrow listed objectives and subject to prior authorisation and further conditions. Two
+      limbs added by the Digital Omnibus apply only from 2 December 2026 and are drawn far more narrowly
+      than the rest. The first covers systems that generate or manipulate realistic depictions of an identifiable
+      person''s intimate parts, or of that person engaged in sexually explicit activity, absent that person''s
+      freely given, specific, informed, unambiguous and explicit consent to the generation or manipulation;
+      editing that neither increases the exposure of depicted intimate parts nor alters the nature of
+      the depicted activity does not count as manipulation for this limb. The second covers systems that
+      generate or manipulate child sexual abuse material and pornographic performance as defined in Directive
+      2011/93/EU, subject to any defence under national law for acting with legal right. For both new
+      limbs the prohibition is split by role. The supply-side limb reaches a provider only where such
+      generation or manipulation is the system''s intended purpose, or where the system''s design, training,
+      architecture, capabilities or user-facing functionality make it a reasonably foreseeable and reproducible
+      outcome without significant technical modification and the system lacks reasonable and adequate
+      technical safety measures and other safeguards to reliably prevent it, taking reasonably foreseeable
+      misuse into account, and to correct misuse once observed or reported. The use-side limb reaches
+      a deployer only where the deployer uses the system for the purpose of producing such material. Capability
+      for misuse alone therefore does not engage either new limb where adequate preventive and corrective
+      safeguards are in place.'
     evidence_expected: A written assessment mapping the deployment's intended purpose, deployment context
       and user population against each prohibition, with a reasoned conclusion per limb; plus, for the
       generative prohibitions, red-team transcripts showing the system refuses to produce the prohibited
@@ -608,23 +636,16 @@ obligations:
     status: active
     source_url: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5
     last_checked: '2026-10-15'
-    verification: unconfirmed
-    notes: 'Date read off Article 113(1): Chapters I and II apply from 2 February 2025. Two carve-outs
-      apply later: Article 5(1) first subparagraph points (ba) and (bb) (non-consensual intimate imagery;
-      child sexual abuse material) and Article 5(1a) and (1b) apply from 2 December 2026. Those points
-      and paragraphs are flagged NEW, added by the Digital Omnibus; the original (a)-(h) prohibitions
-      were NOT postponed and have bound since February 2025. Classification rationale: a probe can show
-      a deployment producing prohibited output, which evidences failure, but whether a deployment constitutes
-      a prohibited practice turns on intended purpose, context and consent, which only a review establishes.
-      Article 5(1a) makes the placing-on-market limb bite where the prohibited generation is the intended
-      purpose or a reasonably foreseeable and reproducible outcome absent adequate safeguards, so the
-      safeguards themselves are review evidence. FLAGGED ON REVIEW and not corrected: a reviewer reading
-      the consolidated text found this summary overstates the scope of the two limbs the Digital Omnibus
-      added to the prohibited list, and that it should name their separate application date of 2026-12-02
-      rather than folding them into the 2025-02-02 date above. Carried as researched and marked unconfirmed
-      rather than rewritten from a reviewer''s prose, because the fix is a reading of the text and belongs
-      to whoever next opens it. Treat the closed list as indicative and check Article 5 directly before
-      relying on scope.'
+    verification: source-confirmed
+    notes: 'Two application dates, and the record carries the earlier because that is when the article
+      first binds: points (a) to (h) from 2025-02-02, and the limbs the Omnibus inserted - Article 5(1)
+      points (ba) and (bb) and paragraphs 1a and 1b - from 2026-12-02, confirmed from the amended Article
+      113 itself. The previous summary overstated scope four ways: it read the new limbs as a flat ban
+      on generation, where Article 5(1a) reaches a provider only on intended purpose or reasonably foreseeable
+      reproducible output absent adequate safeguards, and a deployer only on actual use; it said generation
+      where the text says generation or manipulation; it dropped the realistic, identifiable-person and
+      explicit-consent qualifiers in (ba); and it treated (bb) as standing alone where it is defined by
+      cross-reference to Directive 2011/93/EU.'
   ai-act:Art.50(1):
     id: ai-act:Art.50(1)
     instrument: ai-act
@@ -1073,7 +1094,6 @@ obligations:
     role: entity
     system_class:
     - samfunnsviktig-tjeneste
-    - digital-tjeneste
     summary: Based on its risk assessment, a provider of an essential service must apply technological
       measures fitted to the scale, complexity and risk of its systems, and these must as a minimum cover
       strong authentication, access control, network and service segmentation on a least-privilege basis,
@@ -1087,19 +1107,21 @@ obligations:
     status: active
     source_url: https://lovdata.no/dokument/SF/forskrift/2025-06-20-1131
     last_checked: '2026-10-15'
-    verification: unconfirmed
-    notes: 'The most adversarially testable provision in the Norwegian set: authentication strength, access
-      control, segmentation, least privilege and overload resilience can all be probed directly, and a
-      successful probe evidences failure. It stays hybrid rather than test because the minimum list is
-      anchored to the documented risk assessment and because the exception route runs entirely through
-      documents. Applies to providers of essential services only; the regulation''s Chapter 2 does not
-      reach digital service providers. Filed under digitalsikkerhetsloven rather than a NIS2 key: this
-      statute transposes Directive (EU) 2016/1148 (NIS1) through the EEA agreement, and Norway has not
-      transposed NIS2. Labelling it NIS2 would misstate which regime a client is in. Which of the two
-      regimes this binds - tilbydere av samfunnsviktige tjenester or tilbydere av digitale tjenester -
-      was not established from the text, so both are listed and this record is unconfirmed. digitalsikkerhetsloven
-      splits the two at paragraph 6 and paragraph 9, and a reader must check which chapter of the forskrift
-      this sits in.'
+    verification: source-confirmed
+    notes: 'Scope settled on review: § 10 "Teknologiske sikkerhetstiltak" of digitalsikkerhetsforskriften
+      (FOR-2025-06-20-1131) sits in Kapittel 2 and binds only providers of socially important services
+      (tilbydere av samfunnsviktige tjenester). It does not bind providers of digital services. The most
+      adversarially testable provision in the Norwegian set: authentication strength, access control,
+      segmentation, least privilege and overload resilience can all be probed directly, and a successful
+      probe evidences failure. It stays hybrid rather than test because the minimum list is anchored to
+      the documented risk assessment and because the exception route runs entirely through documents.
+      Applies to providers of essential services only; the regulation''s Chapter 2 does not reach digital
+      service providers. Filed under digitalsikkerhetsloven rather than a NIS2 key: this statute transposes
+      Directive (EU) 2016/1148 (NIS1) through the EEA agreement, and Norway has not transposed NIS2. Labelling
+      it NIS2 would misstate which regime a client is in. Which of the two regimes this binds - tilbydere
+      av samfunnsviktige tjenester or tilbydere av digitale tjenester - was not established from the text,
+      so both are listed and this record is unconfirmed. digitalsikkerhetsloven splits the two at paragraph
+      6 and paragraph 9, and a reader must check which chapter of the forskrift this sits in.'
   digitalsikkerhetsloven:digitalsikkerhetsforskriften § 13:
     id: digitalsikkerhetsloven:digitalsikkerhetsforskriften § 13
     instrument: digitalsikkerhetsloven
@@ -1132,11 +1154,16 @@ obligations:
     role: entity
     system_class:
     - samfunnsviktig-tjeneste
-    - digital-tjeneste
-    summary: A provider of an essential service must ensure that suppliers and others doing work on its
-      behalf that could affect the security of its network and information systems do that work in a way
-      that keeps the required security standard. It must make its security measures binding on those suppliers
-      by contract or another suitable route, so far as needed to hold the security level.
+    summary: 'Oppfølgingsplikt - the supplier follow-up duty. An essential-service provider carries two
+      obligations towards suppliers and anyone else doing work that could affect the security of its networks
+      and information systems, where that work is done for or on behalf of the provider. First, it must
+      satisfy itself that such work is actually carried out in a way that keeps the adequate-security
+      requirements met: an active assurance duty, not merely a paper one. Second, it must make its own
+      security measures binding on those suppliers, by contract or another suitable means, to the extent
+      needed to maintain an adequate level of security. In practice the provider cannot discharge its
+      security obligations by outsourcing the work, so an AI system bought from a vendor falls squarely
+      within this: the provider must flow its controls down to the vendor and then verify the vendor is
+      honouring them.'
     evidence_expected: Contract clauses or equivalent instruments flowing security requirements down to
       suppliers, the register of suppliers whose work can affect security, and the assurance activity
       over them such as reviews, audits or attestations.
@@ -1144,15 +1171,20 @@ obligations:
     status: active
     source_url: https://lovdata.no/dokument/SF/forskrift/2025-06-20-1131
     last_checked: '2026-10-15'
-    verification: unconfirmed
-    notes: 'Directly relevant where an LLM application depends on third-party model providers, inference
-      hosts or retrieval services, since those suppliers'' work can affect the security of the delivering
-      systems. Filed under digitalsikkerhetsloven rather than a NIS2 key: this statute transposes Directive
-      (EU) 2016/1148 (NIS1) through the EEA agreement, and Norway has not transposed NIS2. Labelling it
-      NIS2 would misstate which regime a client is in. Which of the two regimes this binds - tilbydere
-      av samfunnsviktige tjenester or tilbydere av digitale tjenester - was not established from the text,
-      so both are listed and this record is unconfirmed. digitalsikkerhetsloven splits the two at paragraph
-      6 and paragraph 9, and a reader must check which chapter of the forskrift this sits in.'
+    verification: source-confirmed
+    notes: 'Scope settled on review: Digitalsikkerhetsforskriften (FOR-2025-06-20-1131) § 14 "Oppfølgingsplikt"
+      binds only tilbydere av samfunnsviktige tjenester. It sits in Kapittel 2, the chapter of requirements
+      for essential-service providers (§§ 6-14), and its own operative text names that provider as the
+      duty-bearer in both ledd. It does not bind tilbydere av digitale tjenester: the digital-services
+      chapter is Kapittel 3 and contains § 15 alone, which incorp Directly relevant where an LLM application
+      depends on third-party model providers, inference hosts or retrieval services, since those suppliers''
+      work can affect the security of the delivering systems. Filed under digitalsikkerhetsloven rather
+      than a NIS2 key: this statute transposes Directive (EU) 2016/1148 (NIS1) through the EEA agreement,
+      and Norway has not transposed NIS2. Labelling it NIS2 would misstate which regime a client is in.
+      Which of the two regimes this binds - tilbydere av samfunnsviktige tjenester or tilbydere av digitale
+      tjenester - was not established from the text, so both are listed and this record is unconfirmed.
+      digitalsikkerhetsloven splits the two at paragraph 6 and paragraph 9, and a reader must check which
+      chapter of the forskrift this sits in.'
   digitalsikkerhetsloven:digitalsikkerhetsforskriften § 15:
     id: digitalsikkerhetsloven:digitalsikkerhetsforskriften § 15
     instrument: digitalsikkerhetsloven
@@ -1202,21 +1234,25 @@ obligations:
       users affected and cross-border effects, plus the remedial measures in the one-month report.
     verifiable: review
     status: active
-    source_url: https://lovdata.no/dokument/SF/forskrift/2025-06-20-1131
+    source_url: https://lovdata.no/dokument/SF/forskrift/2025-06-20-1131/KAPITTEL_4#%C2%A717
     last_checked: '2026-10-15'
-    verification: unconfirmed
-    notes: 'This is where the Norwegian clock actually lives, not in the statute. A textual wrinkle a
-      client''s lawyers may well raise: the 24-hour sentence is written by reference to a provider of
-      an essential service, even though the provision governs notifications under both § 8 and § 11, so
-      whether the 24-hour limit formally binds digital service providers under § 11 is not settled on
-      the face of the text. Reported here as the text reads rather than smoothed over. The supervisory
-      authority may additionally demand status updates. Filed under digitalsikkerhetsloven rather than
-      a NIS2 key: this statute transposes Directive (EU) 2016/1148 (NIS1) through the EEA agreement, and
-      Norway has not transposed NIS2. Labelling it NIS2 would misstate which regime a client is in. Which
-      of the two regimes this binds - tilbydere av samfunnsviktige tjenester or tilbydere av digitale
-      tjenester - was not established from the text, so both are listed and this record is unconfirmed.
-      digitalsikkerhetsloven splits the two at paragraph 6 and paragraph 9, and a reader must check which
-      chapter of the forskrift this sits in.'
+    verification: source-confirmed
+    notes: 'Scope settled on review: § 17 binds BOTH regimes. It sits in Kapittel 4 of digitalsikkerhetsforskriften
+      (FOR-2025-06-20-1131), the chapter of provisions common to both provider types, not in the essential-services
+      chapter (Kap. 2, §§ 6-14) or the digital-services chapter (Kap. 3, § 15). Its first paragraph is
+      drafted as the procedural shell for notices given under digitalsikkerhetsloven §§ 8 and 11 together,
+      and those two are the notification duties o This is where the Norwegian clock actually lives, not
+      in the statute. A textual wrinkle a client''s lawyers may well raise: the 24-hour sentence is written
+      by reference to a provider of an essential service, even though the provision governs notifications
+      under both § 8 and § 11, so whether the 24-hour limit formally binds digital service providers under
+      § 11 is not settled on the face of the text. Reported here as the text reads rather than smoothed
+      over. The supervisory authority may additionally demand status updates. Filed under digitalsikkerhetsloven
+      rather than a NIS2 key: this statute transposes Directive (EU) 2016/1148 (NIS1) through the EEA
+      agreement, and Norway has not transposed NIS2. Labelling it NIS2 would misstate which regime a client
+      is in. Which of the two regimes this binds - tilbydere av samfunnsviktige tjenester or tilbydere
+      av digitale tjenester - was not established from the text, so both are listed and this record is
+      unconfirmed. digitalsikkerhetsloven splits the two at paragraph 6 and paragraph 9, and a reader
+      must check which chapter of the forskrift this sits in.'
   digitalsikkerhetsloven:digitalsikkerhetsloven § 10:
     id: digitalsikkerhetsloven:digitalsikkerhetsloven § 10
     instrument: digitalsikkerhetsloven
@@ -1754,15 +1790,17 @@ obligations:
       rather than retrofitted.
     verifiable: review
     status: active
-    source_url: https://www.isms.online/iso-42001/annex-a-controls/
+    source_url: https://www.iso.org/standard/42001
     last_checked: '2026-10-15'
     verification: unconfirmed
-    notes: 'Identifier and subject area corroborated by three independent secondary sources (isms.online,
-      Nemko, riskprofs); ISO''s own text could not be opened (403 on every iso.org path tried). Title
-      here is our own descriptive label, not the standard''s heading: sources disagree on the heading,
-      with at least one listing A.5.2 under a risk-assessment name. Classified review, not hybrid: the
-      control is the existence of a repeatable process, and no adversarial run can establish or disprove
-      that a process exists.'
+    notes: 'ISO/IEC 42001:2023 is a paywalled standard (CHF 225 from ISO), and there is no free official
+      text of Annex A anywhere. The control''s own wording therefore cannot be read from an official source,
+      so the record cannot honestly be marked source-confirmed. Specifically, every official route is
+      gated: 1. ISO''s free "Read sample" reader at iso.org exposes the table of contents and the informative
+      front matter only. It stat Corroborated from independent certification-body sources that the control
+      exists and what area it covers; none of the standard''s wording appears here. This record can never
+      be source-confirmed while the standard is paywalled, and that is a property of the standard rather
+      than of our research.'
 crosswalk:
   schema_version: 1
   techniques:

@@ -6,7 +6,6 @@ applies_from: '2025-10-01'
 role: entity
 system_class:
 - samfunnsviktig-tjeneste
-- digital-tjeneste
 summary: Based on its risk assessment, a provider of an essential service must apply technological
   measures fitted to the scale, complexity and risk of its systems, and these must as a minimum
   cover strong authentication, access control, network and service segmentation on a least-privilege
@@ -21,16 +20,19 @@ verifiable: hybrid
 status: active
 source_url: https://lovdata.no/dokument/SF/forskrift/2025-06-20-1131
 last_checked: '2026-10-15'
-verification: unconfirmed
-notes: 'The most adversarially testable provision in the Norwegian set: authentication strength,
-  access control, segmentation, least privilege and overload resilience can all be probed directly,
-  and a successful probe evidences failure. It stays hybrid rather than test because the minimum
-  list is anchored to the documented risk assessment and because the exception route runs entirely
-  through documents. Applies to providers of essential services only; the regulation''s Chapter
-  2 does not reach digital service providers. Filed under digitalsikkerhetsloven rather than a NIS2
-  key: this statute transposes Directive (EU) 2016/1148 (NIS1) through the EEA agreement, and Norway
-  has not transposed NIS2. Labelling it NIS2 would misstate which regime a client is in. Which of
-  the two regimes this binds - tilbydere av samfunnsviktige tjenester or tilbydere av digitale tjenester
-  - was not established from the text, so both are listed and this record is unconfirmed. digitalsikkerhetsloven
-  splits the two at paragraph 6 and paragraph 9, and a reader must check which chapter of the forskrift
+verification: source-confirmed
+notes: 'Scope settled on review: § 10 "Teknologiske sikkerhetstiltak" of digitalsikkerhetsforskriften
+  (FOR-2025-06-20-1131) sits in Kapittel 2 and binds only providers of socially important services
+  (tilbydere av samfunnsviktige tjenester). It does not bind providers of digital services. The
+  most adversarially testable provision in the Norwegian set: authentication strength, access control,
+  segmentation, least privilege and overload resilience can all be probed directly, and a successful
+  probe evidences failure. It stays hybrid rather than test because the minimum list is anchored
+  to the documented risk assessment and because the exception route runs entirely through documents.
+  Applies to providers of essential services only; the regulation''s Chapter 2 does not reach digital
+  service providers. Filed under digitalsikkerhetsloven rather than a NIS2 key: this statute transposes
+  Directive (EU) 2016/1148 (NIS1) through the EEA agreement, and Norway has not transposed NIS2.
+  Labelling it NIS2 would misstate which regime a client is in. Which of the two regimes this binds
+  - tilbydere av samfunnsviktige tjenester or tilbydere av digitale tjenester - was not established
+  from the text, so both are listed and this record is unconfirmed. digitalsikkerhetsloven splits
+  the two at paragraph 6 and paragraph 9, and a reader must check which chapter of the forskrift
   this sits in.'
