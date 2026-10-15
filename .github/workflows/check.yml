@@ -9,13 +9,13 @@ jobs:
         with: { python-version: "3.12" }
       - run: pip install pyyaml pytest jsonschema
       # The bundle is what consumers vendor, so a stale one is a shipped defect
-      # rather than an untidy tree. Rebuilt here and compared, not trusted.
-      - run: python3 bin/bundle.py
-      - name: the bundle must already have been regenerated
-        run: |
-          if ! git diff --quiet dist/snapshot.yaml; then
-            echo "dist/snapshot.yaml is out of date: run bin/bundle.py and commit it"
-            git --no-pager diff --stat dist/snapshot.yaml
-            exit 1
-          fi
+      # rather than an untidy tree. Checked by `test_the_bundle_is_the_sources`,
+      # which compares the CONTENT section by section.
+      #
+      # Deliberately NOT a `git diff` on the file. The snapshot records
+      # `generated_from`, the revision it was built from, so a clean rebuild in CI
+      # can never byte-match one generated before its own commit existed - the sha
+      # it should carry is the sha of the commit that carries it. That check failed
+      # on the first push for exactly that reason, on one line, with every byte of
+      # the actual data identical.
       - run: python3 -m pytest -q
