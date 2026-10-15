@@ -1,0 +1,24 @@
+id: ai-act:Art.50(5)
+instrument: ai-act
+citation: Art.50(5)
+title: Transparency obligations for providers and deployers of certain AI systems
+applies_from: '2026-08-02'
+role: both
+system_class:
+- limited-risk
+summary: The information required by the preceding paragraphs must be given clearly and in a way
+  the user can distinguish, no later than the first interaction or exposure. It must also meet the
+  applicable accessibility requirements.
+evidence_expected: Evidence of the disclosure at or before first contact, showing its placement
+  and prominence in the real interface rather than in documentation; plus an accessibility conformance
+  record covering the disclosure itself, including behaviour under a screen reader.
+verifiable: test
+status: active
+source_url: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'Date is the Article 113 general date of 2 August 2026, unflagged. Classified test because
+  timing, clarity and distinguishability are directly observable at runtime and a probe produces
+  affirmative evidence of them. The accessibility limb is the exception: conformance against the
+  applicable accessibility law is a documented review matter, so a reviewer should not treat a passing
+  interaction test as covering it.'

@@ -1,0 +1,22 @@
+id: dora:Art.6(4)
+instrument: dora
+citation: Art.6(4)
+title: ICT risk management framework
+applies_from: '2025-01-17'
+role: entity
+system_class:
+- important-entity
+summary: Entities other than microenterprises must give responsibility for managing and overseeing
+  ICT risk to a control function with an appropriate level of independence, and must keep ICT risk
+  management, control and internal audit functions properly segregated along three-lines-of-defence
+  or equivalent lines.
+evidence_expected: Organisational charts and reporting lines showing the ICT risk control function
+  and its independence; terms of reference for that function; an analysis of conflicts of interest,
+  particularly where the team building or operating an AI system also assures it.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: This matters in AI engagements because model development, deployment and evaluation are often
+  concentrated in one team, which is exactly the segregation problem this paragraph addresses.

@@ -1,0 +1,25 @@
+id: digitalsikkerhetsloven:digitalsikkerhetsloven § 8
+instrument: digitalsikkerhetsloven
+citation: digitalsikkerhetsloven § 8
+title: Krav om varsling for tilbydere av samfunnsviktige tjenester (notification requirement for
+  providers of essential services)
+applies_from: '2025-10-01'
+role: entity
+system_class:
+- samfunnsviktig-tjeneste
+summary: A provider of an essential service must notify the body designated by the King, without
+  undue delay and regardless of confidentiality duties, of incidents that significantly affect service
+  delivery. Significance turns on how many users are affected, how long the incident lasts and how
+  large the affected geographic area is.
+evidence_expected: Notifications sent with their timestamps against internal awareness records,
+  and the significance assessment for incidents both reported and not reported.
+verifiable: review
+status: active
+source_url: https://lovdata.no/dokument/NL/lov/2023-12-20-108
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'The statute itself sets no clock beyond without undue delay. The 24-hour and 72-hour figures
+  come from digitalsikkerhetsforskriften § 17, recorded separately; citing a 24-hour deadline to
+  this section alone would be wrong. Filed under digitalsikkerhetsloven rather than a NIS2 key:
+  this statute transposes Directive (EU) 2016/1148 (NIS1) through the EEA agreement, and Norway
+  has not transposed NIS2. Labelling it NIS2 would misstate which regime a client is in.'

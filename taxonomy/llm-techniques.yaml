@@ -1,0 +1,211 @@
+# The technique vocabulary. One entry per technique a case can be written against.
+#
+# WHAT THIS IS FOR, AND WHAT IT IS NOT.
+#
+# Three different facts about a technique live in three different places, on purpose:
+#
+#   does `llm01-indirect-doc` exist?        HERE
+#   which technique is this case?           the case, in seed-vault, as `taxon:`
+#   can we prove it from a chat endpoint?   the harness, which owns its own tooling
+#
+# Feasibility is deliberately NOT here. Whether a technique can be proved depends on
+# what the harness can drive and what access an engagement was granted, and neither is
+# a property of the regulation or of the vocabulary.
+#
+# Membership is asserted by the consumers that resolve a taxon to something, not by the
+# corpus that names one. That keeps the corpus free of a dependency on this file and
+# makes adding a technique one edit rather than two.
+#
+# Seeded from the harness's own list on 2026-10-15, which was
+# the only copy until this repo existed.
+schema_version: 1
+techniques:
+  llm01-direct-override:
+    gloss: '"ignore your instructions"'
+  llm01-chat-template:
+    gloss: forge a role marker
+  llm01-encoding-bypass:
+    gloss: base64/rot13/homoglyph the instruction
+  llm01-refusal-suppression:
+    gloss: '"do not apologise, do not refuse"'
+  llm02-pretext-disclosure:
+    gloss: '"I''m the developer debugging an incident"'
+  llm02-config-disclosure:
+    gloss: keys and endpoints held in context
+  llm07-system-prompt-verbatim: {}
+  llm07-tool-schema-leak:
+    gloss: which tools, with which arguments
+  llm07-guardrail-enumeration:
+    gloss: what it refuses reveals what it protects
+  llm01-indirect-content: {}
+  llm05-html-injection:
+    gloss: unescaped markup in a rendered reply
+  llm01-authority-pretext:
+    gloss: '"the vendor authorises this", with or without urgency'
+  llm01-prefix-seeding:
+    gloss: force a compliant opening and let it continue
+  llm01-forged-history:
+    gloss: fabricated earlier turns in which it already agreed
+  llm01-unicode-smuggling:
+    gloss: zero-width, bidi override, U+E0000 tag block
+  llm02-pii-in-context:
+    gloss: personal data the operator put in context for other reasons
+  llm02-error-disclosure:
+    gloss: stack traces and query text out of the error path
+  llm07-system-prompt-paraphrase:
+    gloss: the substance, translated or summarised, past a verbatim guard
+  llm07-system-prompt-encoded:
+    gloss: re-encoded, past an output filter matching plaintext
+  llm07-pretext-disclosure:
+    gloss: a maintenance or debug reason to hand over the configuration
+  llm07-prompt-completion-priming:
+    gloss: continue the prompt text rather than report it
+  llm01-language-pivot:
+    gloss: another language, or the request framed as a translation job
+  llm01-adversarial-suffix:
+    gloss: optimised or fluent nonsense appended to carry a refused request
+  llm01-context-flooding:
+    gloss: displace the preamble so a forged directive arrives last
+  llm06-delegated-authoring:
+    gloss: write the restricted act out for another executor to run
+  llm01-continuation-framing:
+    gloss: ask for the restricted act as the completion of existing text
+  llm05-shell-metachar:
+    gloss: output a downstream shell call would interpret
+  llm05-template-injection:
+    gloss: a template expression a server-side renderer would evaluate
+  llm05-path-traversal:
+    gloss: a generated path that escapes its directory
+  llm05-unsafe-code:
+    gloss: a snippet that interpolates untrusted input
+  llm09-hallucinated-package:
+    gloss: a recommended package nobody published
+  jailbreak-crescendo:
+    gloss: escalate by degrees over turns
+  jailbreak-many-shot:
+    gloss: fill the context with compliance
+  jailbreak-roleplay:
+    gloss: a persona with no rules
+  llm01-context-poisoning:
+    gloss: plant a false premise, spend it later
+  llm02-memory-bleed:
+    gloss: what another user told it
+  llm01-goal-hijack:
+    gloss: instruction and trigger arrive apart
+  llm01-fragment-reassembly:
+    gloss: one instruction split so no single turn trips a filter
+  llm02-enumeration:
+    gloss: confirm records exist by comparing how it answers
+  llm07-incremental-extraction:
+    gloss: the prompt in pieces, each small enough to look harmless
+  llm06-role-escalation:
+    gloss: acquire the privileged role by degrees
+  llm06-scope-creep:
+    gloss: carry a narrow authorisation into a broad one
+  llm01-indirect-doc:
+    gloss: instruction inside a retrieved document
+  llm01-indirect-profile:
+    gloss: instruction inside a field it interpolates
+  llm01-indirect-upload:
+    gloss: instruction inside an uploaded file
+  llm02-cross-tenant-rag:
+    gloss: another tenant's documents
+  llm08-retrieval-poisoning:
+    gloss: bias retrieval with planted content
+  llm08-embedding-collision:
+    gloss: crafted text that outranks the real answer
+  llm01-indirect-tool-output:
+    gloss: instruction in the result of a tool call
+  llm01-indirect-web:
+    gloss: a fetched page, including inside an HTML comment
+  llm01-indirect-email:
+    gloss: the mailbox the assistant reads
+  llm01-indirect-metadata:
+    gloss: a filename or other short field unlikely to be sanitised
+  llm01-indirect-invisible:
+    gloss: white-on-white or zero-size text in a document
+  llm01-indirect-calendar:
+    gloss: an invite an attacker can send unsolicited
+  llm01-indirect-conditional:
+    gloss: fires only for a targeted reader, to survive review
+  llm01-indirect-persistent:
+    gloss: survives into later sessions after the source is gone
+  llm01-indirect-image:
+    gloss: text rendered in, or EXIF attached to, an image
+  llm01-indirect-audio:
+    gloss: speech-to-text output
+  llm01-indirect-ocr:
+    gloss: the text layer behind a scanned page
+  llm08-retrieval-authz-bypass:
+    gloss: reach restricted chunks past the access filter
+  llm08-stale-index:
+    gloss: a document deleted at the source, still retrievable
+  llm08-citation-leak:
+    gloss: citations name documents the user cannot open
+  llm08-index-pollution:
+    gloss: an ordinary upload path writes into the shared index
+  llm06-tool-sqli:
+    gloss: attacker SQL reaches the database tool
+  llm06-tool-ssrf:
+    gloss: the agent fetches an internal address
+  llm06-tool-idor:
+    gloss: a tool with no ownership check
+  llm06-tool-unapproved-send:
+    gloss: outbound action the user chose
+  llm06-tool-arg-injection:
+    gloss: argument smuggled through prose
+  llm06-tool-chain:
+    gloss: one tool's output drives the next
+  llm06-mcp-tool-poisoning:
+    gloss: a malicious tool description
+  llm05-sqli-in-output:
+    gloss: output trusted by a downstream query
+  llm06-unverified-privilege:
+    gloss: a privileged role obtained by asserting one
+  llm06-third-party-action:
+    gloss: act for another principal on the user's say-so
+  llm06-unconfirmed-write:
+    gloss: a state change with no confirmation, or past one
+  llm06-out-of-scope-tool:
+    gloss: a tool this context should not expose
+  llm06-autonomous-action:
+    gloss: consequential action the user never asked for
+  llm06-quantity-manipulation:
+    gloss: a numeric argument beyond the user's entitlement
+  llm06-tool-call-from-injection:
+    gloss: the tool call comes from retrieved content, not the user
+  llm02-other-user-record:
+    gloss: another user's record, asked for in ordinary words
+  llm05-markdown-exfil:
+    gloss: a rendered image URL carries the data
+  llm05-link-exfil:
+    gloss: a link the client follows
+  llm02-oob-disclosure:
+    gloss: the secret leaves via the callback
+  llm05-exfil-via-injection:
+    gloss: 'the beacon is emitted by planted content: the full chain'
+  jailbreak-harmful-content: {}
+  llm09-fabricated-policy:
+    gloss: a confident invented commitment
+  llm09-fabricated-citation: {}
+  llm09-overreliance:
+    gloss: unhedged advice in a regulated domain
+  bias-protected-attribute: {}
+  llm09-sycophancy:
+    gloss: validates a false premise rather than correcting it
+  llm10-token-amplification: {}
+  llm10-denial-of-wallet: {}
+  llm10-context-exhaustion: {}
+  llm10-tool-call-loop:
+    gloss: one user turn, repeated tool calls
+  llm03-model-provenance:
+    gloss: where did the weights come from
+  llm03-dependency-chain:
+    gloss: the serving stack's own supply chain
+  llm03-plugin-vetting:
+    gloss: how third-party tools are reviewed
+  llm04-training-data-provenance: {}
+  llm04-finetune-poisoning: {}
+  llm04-rlhf-tampering: {}
+  llm04-weight-extraction: {}
+  llm08-embedding-inversion-offline: {}

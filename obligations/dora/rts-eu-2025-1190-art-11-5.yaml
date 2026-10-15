@@ -1,0 +1,24 @@
+id: dora:RTS (EU) 2025/1190 Art.11(5)
+instrument: dora
+citation: RTS (EU) 2025/1190 Art.11(5)
+title: 'Testing phase: red team test'
+applies_from: '2025-07-08'
+role: entity
+system_class:
+- important-entity
+summary: The active red team testing phase must be proportionate to the scope and to the scale,
+  activity, complexity and number of entities and providers involved, and in any case must last
+  at least twelve weeks. Scenarios may run in sequence or concurrently, and the control team, threat
+  intelligence provider, testers and test managers agree when the phase ends.
+evidence_expected: The approved red team test plan in Annex IV form; start and end dates for the
+  active phase evidencing at least twelve weeks; the weekly progress reports to the control team
+  and test managers required by Art.11(7); the record of the parties' agreement on the phase ending.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg_del/2025/1190/oj/eng
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'The twelve-week floor is in the delegated regulation, not in DORA, and it is the single
+  most commercially significant TLPT constraint: a short AI red-team sprint cannot be sold as a
+  TLPT however thorough it is. Under Art.11(10) the duration of any limited purple teaming substituted
+  in exceptional circumstances counts toward the twelve weeks.'

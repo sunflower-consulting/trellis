@@ -1,0 +1,15 @@
+[project]
+name = "sunflower-trellis"
+version = "0.1.0"
+description = "The regulatory frame a test result is mapped onto: EU and Norwegian AI obligations, as data."
+requires-python = ">=3.11"
+dependencies = ["pyyaml>=6.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "jsonschema>=4.0"]
+
+[project.urls]
+Homepage = "https://github.com/sunflower-consulting/trellis"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

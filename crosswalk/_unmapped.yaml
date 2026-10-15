@@ -1,0 +1,45 @@
+# Techniques deliberately mapped to nothing, each with the reason.
+#
+# Generated from families rather than hand-written per technique: the rationale for
+# `llm01-direct-override` and `llm01-encoding-bypass` is genuinely the same sentence,
+# and thirty copies of it typed separately would drift. Edit a family here and
+# regenerate, or edit an entry directly once it needs its own reason.
+#
+# last_reviewed: 2026-10-15
+schema_version: 1
+techniques:
+  bias-protected-attribute:
+    reason: Bias. ai-act:Art.10 and ai-act:Art.4a(1) cover it and both are review duties about data
+      governance and legal basis. A disparity measured at the endpoint is a finding worth reporting
+      and is not evidence that those duties were met or missed.
+  llm03-dependency-chain:
+    reason: Supply chain. The obligations in this catalogue that cover model and component provenance
+      are documentation duties a run cannot speak to, and crosswalking a test result to one would
+      let the appendix claim evidence it does not have. Reaches ai-act:Art.10 and the CRA SBOM duties
+      by REVIEW.
+  llm03-model-provenance:
+    reason: Supply chain. The obligations in this catalogue that cover model and component provenance
+      are documentation duties a run cannot speak to, and crosswalking a test result to one would
+      let the appendix claim evidence it does not have. Reaches ai-act:Art.10 and the CRA SBOM duties
+      by REVIEW.
+  llm03-plugin-vetting:
+    reason: Supply chain. The obligations in this catalogue that cover model and component provenance
+      are documentation duties a run cannot speak to, and crosswalking a test result to one would
+      let the appendix claim evidence it does not have. Reaches ai-act:Art.10 and the CRA SBOM duties
+      by REVIEW.
+  llm04-finetune-poisoning:
+    reason: Training-time attacks. The catalogue covers these under data governance and risk management,
+      which are review duties; nothing a black-box run produces is evidence about how a model was
+      trained.
+  llm04-rlhf-tampering:
+    reason: Training-time attacks. The catalogue covers these under data governance and risk management,
+      which are review duties; nothing a black-box run produces is evidence about how a model was
+      trained.
+  llm04-training-data-provenance:
+    reason: Training-time attacks. The catalogue covers these under data governance and risk management,
+      which are review duties; nothing a black-box run produces is evidence about how a model was
+      trained.
+  llm04-weight-extraction:
+    reason: Training-time attacks. The catalogue covers these under data governance and risk management,
+      which are review duties; nothing a black-box run produces is evidence about how a model was
+      trained.

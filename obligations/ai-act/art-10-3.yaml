@@ -1,0 +1,25 @@
+id: ai-act:Art.10(3)
+instrument: ai-act
+citation: Art.10(3)
+title: Relevance, representativeness and statistical properties of data sets
+applies_from: '2027-12-02'
+role: provider
+system_class:
+- annex-iii-high-risk
+summary: The data sets must be relevant, sufficiently representative, and as far as possible free
+  of errors and complete for the intended purpose, with appropriate statistical properties including
+  as regards the people or groups the system will be used on. These qualities may be demonstrated
+  across a combination of data sets rather than each one individually.
+evidence_expected: A representativeness and data-quality analysis against the defined intended purpose
+  and the affected population, with the statistical properties stated and measured, error and completeness
+  rates quantified, and a note of whether the assessment was made per data set or across a combination.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: No probe of a deployed system can establish representativeness of the data behind it; this
+  needs data access and statistical review. A red team can surface disparate performance across
+  groups, which is corroborating evidence of a possible Art 10(3) defect but does not evidence the
+  obligation either way. Unamended by the Omnibus. For Annex I product-embedded high-risk systems
+  the date is 2028-08-02.

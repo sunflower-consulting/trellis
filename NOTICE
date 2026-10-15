@@ -1,0 +1,27 @@
+trellis
+Copyright 2026 Sunflower Consulting
+
+This product includes material developed by Sunflower Consulting, licensed as set
+out in LICENSE (code) and LICENSE-DATA (data).
+
+ATTRIBUTION
+
+The technique vocabulary under taxonomy/ is derived from the OWASP Top 10 for Large
+Language Model Applications and the structure of OWASP's GenAI security material.
+OWASP is a registered trademark of the OWASP Foundation, Inc. Sunflower Consulting
+is not affiliated with or endorsed by the OWASP Foundation.
+
+  https://genai.owasp.org/
+
+Where the crosswalk maps a technique to a framework other than the EU and Norwegian
+instruments catalogued here -- MITRE ATLAS, MITRE ATT&CK, CWE, NIST AI 600-1, the
+NIST AI Risk Management Framework, the CSA AI Controls Matrix -- it relies on the
+consolidated mappings published by OWASP rather than re-deriving them. Those are
+cited at the point of use.
+
+Regulatory texts are not reproduced. Each obligation record links to the official
+source it was read from: EUR-Lex for EU instruments, Lovdata and regjeringen.no for
+Norwegian ones.
+
+ISO/IEC 42001:2023 is a copyrighted standard sold by ISO. Nothing of its text
+appears here.

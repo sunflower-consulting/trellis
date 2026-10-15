@@ -1,0 +1,27 @@
+id: digitalsikkerhetsloven:digitalsikkerhetsloven § 11
+instrument: digitalsikkerhetsloven
+citation: digitalsikkerhetsloven § 11
+title: Krav om varsling for tilbydere av digitale tjenester (notification requirement for providers
+  of digital services)
+applies_from: '2025-10-01'
+role: entity
+system_class:
+- digital-tjeneste
+summary: A provider of a digital service must notify the designated body, without undue delay and
+  regardless of confidentiality duties, of incidents significantly affecting service delivery. Here
+  significance weighs the number of users affected, duration, geographic spread, how far the service
+  lost functionality and the effect on economic and social activity.
+evidence_expected: Notifications with timestamps against internal awareness records, and the significance
+  assessments showing how the five factors were applied.
+verifiable: review
+status: active
+source_url: https://lovdata.no/dokument/NL/lov/2023-12-20-108
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'The significance test is broader than the one in § 8, adding loss of functionality and economic
+  impact. A small-provider exemption in digitalsikkerhetsforskriften § 3 lifts this duty, and the
+  § 15 security duty, from digital service providers with fewer than 50 employees and annual turnover
+  or balance sheet total at or below EUR 10 million. Filed under digitalsikkerhetsloven rather than
+  a NIS2 key: this statute transposes Directive (EU) 2016/1148 (NIS1) through the EEA agreement,
+  and Norway has not transposed NIS2. Labelling it NIS2 would misstate which regime a client is
+  in.'

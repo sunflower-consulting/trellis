@@ -1,0 +1,22 @@
+id: ai-act:Art.26(2)
+instrument: ai-act
+citation: Art.26(2)
+title: Assignment of human oversight to competent people
+applies_from: '2027-12-02'
+role: deployer
+system_class:
+- annex-iii-high-risk
+summary: The deployer must hand human oversight to named natural persons who have the competence,
+  training and authority to do it, and must give them the support they need.
+evidence_expected: Named oversight roles with their competence and training records, written delegation
+  showing they hold the authority to override or stop use, and evidence of the support provided,
+  such as staffing levels, escalation routes and time allowed per decision.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'Pure review: competence, training, authority and support are personnel and organisational
+  facts that no probe of the system can reach. Authority is the limb most often missing in practice,
+  where a reviewer can see the output but cannot in fact refuse it. Unamended by the Omnibus. For
+  Annex I product-embedded high-risk systems the date is 2028-08-02.'

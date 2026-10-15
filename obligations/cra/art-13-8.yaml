@@ -1,0 +1,24 @@
+id: cra:Art.13(8)
+instrument: cra
+citation: Art.13(8)
+title: Obligations of manufacturers
+applies_from: '2027-12-11'
+role: manufacturer
+system_class:
+- product-with-digital-elements
+summary: Vulnerabilities in the product and its components must be handled effectively throughout
+  a support period the manufacturer itself sets, which must normally be at least five years. The
+  manufacturer must also hold policies and procedures, including a coordinated disclosure policy,
+  for processing reported vulnerabilities.
+evidence_expected: The documented support-period determination and the reasoning behind it, the
+  coordinated vulnerability disclosure policy, and the vulnerability intake and remediation procedure
+  with a sample of worked cases.
+verifiable: hybrid
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: A probe that finds an unhandled vulnerability inside the support period shows the duty was
+  breached, but the support-period determination and the policies are documents that no probe can
+  produce. Shorter support periods are allowed only where the product is expected to be in use for
+  less than five years.

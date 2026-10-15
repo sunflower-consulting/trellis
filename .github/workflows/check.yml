@@ -1,0 +1,21 @@
+name: check
+on: [push, pull_request]
+jobs:
+  dataset:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pyyaml pytest jsonschema
+      # The bundle is what consumers vendor, so a stale one is a shipped defect
+      # rather than an untidy tree. Rebuilt here and compared, not trusted.
+      - run: python3 bin/bundle.py
+      - name: the bundle must already have been regenerated
+        run: |
+          if ! git diff --quiet dist/snapshot.yaml; then
+            echo "dist/snapshot.yaml is out of date: run bin/bundle.py and commit it"
+            git --no-pager diff --stat dist/snapshot.yaml
+            exit 1
+          fi
+      - run: python3 -m pytest -q

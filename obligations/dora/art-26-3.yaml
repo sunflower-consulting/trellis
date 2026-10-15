@@ -1,0 +1,23 @@
+id: dora:Art.26(3)
+instrument: dora
+citation: Art.26(3)
+title: Advanced testing of ICT tools, systems and processes based on TLPT
+applies_from: '2025-01-17'
+role: entity
+system_class:
+- ict-third-party
+summary: Where ICT third-party service providers fall within the scope of a threat-led penetration
+  test, the entity must take the measures and safeguards needed to secure their participation. The
+  entity retains full responsibility for compliance with DORA at all times.
+evidence_expected: The contractual basis for the provider's participation, which Art.30(3)(d) requires
+  for critical or important function contracts; correspondence or test records showing the provider
+  actually took part; the safeguards agreed with the provider; the entity's own record of retained
+  responsibility.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'This is the provision that bites when the AI capability is a third-party model or inference
+  service: the entity must either bring the provider into the test or use the pooled route in Art.26(4),
+  and cannot treat the provider''s refusal as an excuse.'

@@ -1,0 +1,22 @@
+id: dora:Art.24(6)
+instrument: dora
+citation: Art.24(6)
+title: General requirements for the performance of digital operational resilience testing
+applies_from: '2025-01-17'
+role: entity
+system_class:
+- important-entity
+summary: Entities other than microenterprises must ensure that appropriate tests are conducted at
+  least yearly on all ICT systems and applications supporting critical or important functions.
+evidence_expected: A coverage matrix mapping every ICT system and application supporting a critical
+  or important function to a test within the last twelve months, with the test type and date; the
+  justification for what counts as an appropriate test for each; explicit treatment of the AI application
+  and its supporting components.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: This yearly coverage duty, not the three-year TLPT cycle, is the one that most often pulls
+  a newly deployed LLM application into scope for testing. Neither the annual cadence nor completeness
+  of coverage can be established by probing the system.

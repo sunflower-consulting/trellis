@@ -1,0 +1,20 @@
+id: cra:Art.14(8)
+instrument: cra
+citation: Art.14(8)
+title: Reporting obligations of manufacturers
+applies_from: '2026-09-11'
+role: manufacturer
+system_class:
+- product-with-digital-elements
+summary: After becoming aware of an actively exploited vulnerability or a severe incident, the manufacturer
+  must tell the affected users about it and, where needed, about the mitigations they can apply,
+  in a machine-readable form where that is appropriate.
+evidence_expected: The user notices actually issued, their distribution lists and dates, and any
+  machine-readable advisory feed.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: If the manufacturer is slow, the notified CSIRTs may inform users themselves. Applies from
+  11 September 2026.

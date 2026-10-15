@@ -1,0 +1,22 @@
+id: digitalsikkerhetsloven:digitalsikkerhetsforskriften § 13
+instrument: digitalsikkerhetsloven
+citation: digitalsikkerhetsforskriften § 13
+title: Hendelseshåndtering og beredskap (incident handling and contingency)
+applies_from: '2025-10-01'
+role: entity
+system_class:
+- samfunnsviktig-tjeneste
+summary: A provider of an essential service must hold a contingency plan for handling incidents
+  and for notification under § 17. It must also consider which contingency measures and tightenings
+  of existing security measures could be brought in quickly if needed.
+evidence_expected: The contingency and incident-handling plan, the assessment of measures that can
+  be escalated at short notice, and exercise or live-incident records showing the plan works.
+verifiable: hybrid
+status: active
+source_url: https://lovdata.no/dokument/SF/forskrift/2025-06-20-1131
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'An exercise or a real incident can show the plan fails in practice, but the plan and the
+  escalation assessment are documents. Filed under digitalsikkerhetsloven rather than a NIS2 key:
+  this statute transposes Directive (EU) 2016/1148 (NIS1) through the EEA agreement, and Norway
+  has not transposed NIS2. Labelling it NIS2 would misstate which regime a client is in.'

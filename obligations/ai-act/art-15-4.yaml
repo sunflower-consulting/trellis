@@ -1,0 +1,30 @@
+id: ai-act:Art.15(4)
+instrument: ai-act
+citation: Art.15(4)
+title: Resilience to errors, faults and inconsistencies, and control of feedback loops
+applies_from: '2027-12-02'
+role: provider
+system_class:
+- annex-iii-high-risk
+summary: The system must be as resilient as it can be to errors, faults and inconsistencies arising
+  inside it or in its environment, particularly from interaction with people or other systems, and
+  technical and organisational measures must be taken to that end. Robustness may be delivered through
+  redundancy such as backup or fail-safe arrangements, and a system that keeps learning after deployment
+  must be built to eliminate or reduce the risk of biased output feeding back into later inputs,
+  with those loops addressed by mitigation measures.
+evidence_expected: Fault-injection and inconsistency test results covering internal faults and environmental
+  and interaction faults, the technical and organisational measures recorded against each failure
+  mode, any redundancy or fail-safe design, and, where the system continues to learn after deployment,
+  the feedback-loop analysis and the mitigations applied to it.
+verifiable: hybrid
+status: active
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'This is the paragraph on errors, faults, inconsistencies and feedback loops. It is NOT the
+  data-poisoning and model-evasion paragraph: that is Art 15(5), third subparagraph. Any crosswalk
+  entry mapping poisoning or adversarial-example testing to Art 15(4) is miscited. Hybrid because
+  fault injection and inconsistency probing can show the system is not resilient, while the technical
+  and organisational measures, the redundancy design and the feedback-loop mitigations are only
+  visible on review. Unamended by the Omnibus. For Annex I product-embedded high-risk systems the
+  date is 2028-08-02.'

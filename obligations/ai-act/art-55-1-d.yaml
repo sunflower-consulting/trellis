@@ -1,0 +1,23 @@
+id: ai-act:Art.55(1)(d)
+instrument: ai-act
+citation: Art.55(1)(d)
+title: Obligations of providers of general-purpose AI models with systemic risk
+applies_from: '2025-08-02'
+role: provider
+system_class:
+- gpai-systemic-risk
+summary: The provider must maintain an adequate level of cybersecurity protection for the model
+  and for the physical infrastructure it runs on.
+evidence_expected: The threat model covering model weight exfiltration and infrastructure compromise,
+  the controls deployed against it, recent penetration test or security assessment reports with
+  remediation status, and the physical security arrangements for the hosting environment.
+verifiable: hybrid
+status: active
+source_url: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-55
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'Date read off Article 113(2): 2 August 2025, not postponed. Classified hybrid: an offensive
+  test can demonstrate protection is inadequate, for instance by finding a weight exfiltration path,
+  but whether the overall level is adequate, and anything about physical infrastructure, is established
+  by review. Note the scope is the model and its infrastructure, not the application layer, so application-level
+  findings do not evidence this duty.'

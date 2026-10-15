@@ -1,0 +1,39 @@
+id: ai-act:Art.5
+instrument: ai-act
+citation: Art.5
+title: Prohibited AI practices
+applies_from: '2025-02-02'
+role: both
+system_class:
+- prohibited
+summary: Bans a closed list of AI practices outright, reaching anyone who places such a system on
+  the market, puts it into service or uses it. The list covers manipulative and vulnerability-exploiting
+  techniques, social scoring, profiling-only crime prediction, untargeted facial scraping, emotion
+  inference at work or in education, sensitive-trait biometric categorisation, real-time remote
+  biometric identification for law enforcement, and, from a later date, the generation of non-consensual
+  intimate imagery and child sexual abuse material.
+evidence_expected: A written assessment mapping the deployment's intended purpose, deployment context
+  and user population against each prohibition, with a reasoned conclusion per limb; plus, for the
+  generative prohibitions, red-team transcripts showing the system refuses to produce the prohibited
+  material and a record of the safeguards relied on.
+verifiable: hybrid
+status: active
+source_url: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5
+last_checked: '2026-10-15'
+verification: unconfirmed
+notes: 'Date read off Article 113(1): Chapters I and II apply from 2 February 2025. Two carve-outs
+  apply later: Article 5(1) first subparagraph points (ba) and (bb) (non-consensual intimate imagery;
+  child sexual abuse material) and Article 5(1a) and (1b) apply from 2 December 2026. Those points
+  and paragraphs are flagged NEW, added by the Digital Omnibus; the original (a)-(h) prohibitions
+  were NOT postponed and have bound since February 2025. Classification rationale: a probe can show
+  a deployment producing prohibited output, which evidences failure, but whether a deployment constitutes
+  a prohibited practice turns on intended purpose, context and consent, which only a review establishes.
+  Article 5(1a) makes the placing-on-market limb bite where the prohibited generation is the intended
+  purpose or a reasonably foreseeable and reproducible outcome absent adequate safeguards, so the
+  safeguards themselves are review evidence. FLAGGED ON REVIEW and not corrected: a reviewer reading
+  the consolidated text found this summary overstates the scope of the two limbs the Digital Omnibus
+  added to the prohibited list, and that it should name their separate application date of 2026-12-02
+  rather than folding them into the 2025-02-02 date above. Carried as researched and marked unconfirmed
+  rather than rewritten from a reviewer''s prose, because the fix is a reading of the text and belongs
+  to whoever next opens it. Treat the closed list as indicative and check Article 5 directly before
+  relying on scope.'

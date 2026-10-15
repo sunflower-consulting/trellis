@@ -1,0 +1,30 @@
+id: digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+instrument: digitalsikkerhetsloven
+citation: digitalsikkerhetsloven § 7
+title: Krav om sikkerhet for tilbydere av samfunnsviktige tjenester (security requirements for providers
+  of essential services)
+applies_from: '2025-10-01'
+role: entity
+system_class:
+- samfunnsviktig-tjeneste
+summary: A provider of an essential service must carry out a risk assessment of the network and
+  information systems used to deliver the service, and put in place technical and organisational
+  measures proportionate to that risk, judged against the state of technology. It must also take
+  proportionate steps to prevent, detect and limit the effects of incidents so the service keeps
+  running.
+evidence_expected: The current risk assessment for the systems behind the service, the measures
+  traced back to assessed risks, and the preventive, detective and mitigating controls with evidence
+  they operate.
+verifiable: hybrid
+status: active
+source_url: https://lovdata.no/dokument/NL/lov/2023-12-20-108
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'Scope caveat that matters for this record: the act covers essential services only in energy,
+  transport, health, water supply, banking, financial market infrastructure and digital infrastructure.
+  A system_class of important-entity is NIS2 vocabulary that this act does not use; its own categories
+  are provider of an essential service and provider of a digital service, so the second class given
+  here is the act''s actual one. Under § 5 these duties yield where another statute sets equivalent
+  or stricter requirements. Filed under digitalsikkerhetsloven rather than a NIS2 key: this statute
+  transposes Directive (EU) 2016/1148 (NIS1) through the EEA agreement, and Norway has not transposed
+  NIS2. Labelling it NIS2 would misstate which regime a client is in.'

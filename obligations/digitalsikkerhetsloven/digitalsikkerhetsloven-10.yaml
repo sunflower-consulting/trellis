@@ -1,0 +1,30 @@
+id: digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+instrument: digitalsikkerhetsloven
+citation: digitalsikkerhetsloven § 10
+title: Krav om sikkerhet for tilbydere av digitale tjenester (security requirements for providers
+  of digital services)
+applies_from: '2025-10-01'
+role: entity
+system_class:
+- digital-tjeneste
+summary: A provider of a digital service must assess the risk to the systems used to deliver it
+  and implement proportionate technical and organisational measures matched to that risk, having
+  regard to the state of technology. The assessment must take in the security of systems, equipment
+  and premises, incident handling, service continuity management, monitoring, auditing and testing,
+  and recognised international standards.
+evidence_expected: The risk assessment, the control set mapped to each of the five listed factors,
+  and the monitoring, audit and test records that the fourth factor calls for.
+verifiable: hybrid
+status: active
+source_url: https://lovdata.no/dokument/NL/lov/2023-12-20-108
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'The most likely hook for a deployed LLM application in this act. Digital services under
+  § 9 are online marketplaces, online search engines and cloud services, where a cloud service is
+  defined as giving access to a scalable and elastic pool of shareable computing resources, so an
+  LLM service offered this way can fall in scope. Whether any particular application qualifies is
+  a scoping judgement, not something the text settles. Note the duty names monitoring, auditing
+  and testing as a factor to weigh, which is a weaker thing than a standing duty to test. Filed
+  under digitalsikkerhetsloven rather than a NIS2 key: this statute transposes Directive (EU) 2016/1148
+  (NIS1) through the EEA agreement, and Norway has not transposed NIS2. Labelling it NIS2 would
+  misstate which regime a client is in.'

@@ -1,0 +1,30 @@
+id: ai-act:Art.12
+instrument: ai-act
+citation: Art.12
+title: Record-keeping
+applies_from: '2027-12-02'
+role: provider
+system_class:
+- annex-iii-high-risk
+summary: A high-risk system must be built to record events automatically over its lifetime, with
+  logging that gives traceability proportionate to the system's intended purpose. The events covered
+  have to include those that help identify circumstances liable to lead to the system posing a risk
+  to health, safety or fundamental rights or to a substantial modification, those that feed post-market
+  monitoring, and those a deployer needs for its own monitoring duty; Annex III point 1(a) biometric
+  identification systems carry an additional minimum list of what the logs must hold.
+evidence_expected: The logging design showing which event classes are captured and mapped to the
+  three purposes in paragraph 2, plus a demonstration that exercising the system actually produces
+  those records, and the retention and integrity arrangements for them.
+verifiable: hybrid
+status: active
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'Hybrid is exact here: driving the system and then finding that the event left no usable
+  trace shows the logging failed, and this is a standard red-team check. But only a design review
+  shows the logging covers the risk-identification, post-market-monitoring and deployer-monitoring
+  purposes the article names, rather than whatever the engineers happened to instrument. Paragraph
+  3 sets extra minimum log content for remote biometric identification systems under Annex III point
+  1(a); it is not reached by a typical LLM application and is not recorded separately here. Unamended
+  by the Omnibus. For Annex I product-embedded high-risk systems the date is 2028-08-02. Summary
+  replaced on review against the consolidated text.'

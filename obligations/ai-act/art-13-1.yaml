@@ -1,0 +1,24 @@
+id: ai-act:Art.13(1)
+instrument: ai-act
+citation: Art.13(1)
+title: Transparency of operation towards deployers
+applies_from: '2027-12-02'
+role: provider
+system_class:
+- annex-iii-high-risk
+summary: The system must be built so that its operation is transparent enough for deployers to read
+  its output correctly and use it appropriately. The degree of transparency has to be enough for
+  both provider and deployer to meet their own obligations.
+evidence_expected: A design rationale linking the transparency features actually built into the
+  product to the specific deployer obligations they are meant to make possible, together with evidence
+  that real deployers can in fact interpret outputs, such as usability or comprehension testing
+  rather than an assertion.
+verifiable: hybrid
+status: active
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'A test can demonstrate the negative: that outputs are not interpretable, or that confidence
+  signals are absent or misleading. Whether the transparency was designed in to the degree the article
+  requires is a review question. Unamended by the Omnibus. For Annex I product-embedded high-risk
+  systems the date is 2028-08-02.'

@@ -1,0 +1,24 @@
+id: dora:Art.28(2)
+instrument: dora
+citation: Art.28(2)
+title: General principles
+applies_from: '2025-01-17'
+role: entity
+system_class:
+- ict-third-party
+summary: Entities other than those on the simplified framework and microenterprises must adopt and
+  regularly review a strategy on ICT third-party risk, including a policy on the use of ICT services
+  supporting critical or important functions, applied at individual and where relevant sub-consolidated
+  and consolidated level. The management body must regularly review the risks identified in those
+  critical-function arrangements.
+evidence_expected: The ICT third-party risk strategy and the policy on ICT services supporting critical
+  or important functions; the multi-vendor strategy where applicable; management body minutes recording
+  the periodic risk review; the policy's treatment of AI and model-provider dependencies.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: The detailed content of this policy is specified by Commission Delegated Regulation (EU)
+  2024/1773 of 13 March 2024, adopted under Art.28(10), which is the instrument to review the policy
+  against rather than Art.28(2) alone.

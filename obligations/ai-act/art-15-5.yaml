@@ -1,0 +1,40 @@
+id: ai-act:Art.15(5)
+instrument: ai-act
+citation: Art.15(5)
+title: Cybersecurity resilience, including to data poisoning, model poisoning, adversarial examples
+  and model evasion
+applies_from: '2027-12-02'
+role: provider
+system_class:
+- annex-iii-high-risk
+summary: The system must withstand attempts by unauthorised third parties to change its use, its
+  outputs or its performance by exploiting its vulnerabilities, with technical solutions matched
+  to the circumstances and the risks. Where appropriate, those solutions must include measures to
+  prevent, detect, respond to, resolve and control attacks that tamper with training data, that
+  corrupt pre-trained components used in training, that feed the model inputs crafted to make it
+  err, and that go after confidentiality or exploit flaws in the model.
+evidence_expected: 'Split by what each kind of evidence can establish. REVIEW evidence, which shows
+  the controls exist: the design and operational record of the cybersecurity solutions and why they
+  are proportionate to this system''s circumstances and risks, plus a record of which AI-specific
+  attack classes the provider judged applicable and why, since the measures are required only where
+  appropriate. Training-data and pre-trained-component poisoning are training-time and supply-chain
+  concerns, evidenced through the data and model provenance record rather than by probing the deployed
+  system. TEST evidence, which can show a control failed and never that it exists: an adversarial
+  campaign against the deployed system with its scope, method and results, reaching crafted error-inducing
+  inputs and confidentiality attacks directly, and exercising the detection and response paths rather
+  than accepting them as asserted. Absence of coverage for an attack class is a finding only once
+  the review shows that class was applicable.'
+verifiable: hybrid
+status: active
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'The single provision red-team evidence maps to most directly, and the one most at risk of
+  being over-claimed. Classified hybrid, not test, and the distinction is the point: a successful
+  poisoning, evasion or injection is dispositive evidence that the control failed, but a clean adversarial
+  run does not discharge the paragraph, because the third subparagraph requires measures to prevent,
+  detect, respond to, resolve and control such attacks, and the existence of a detection and response
+  capability is established only by review. Presenting a passing red-team report as compliance with
+  Art 15(5) would be exactly the over-claim this field exists to prevent. The AI-specific attack
+  list sits in the THIRD SUBPARAGRAPH of paragraph 5; the resilience outcome is the first subparagraph.
+  Unamended by the Omnibus. For Annex I product-embedded high-risk systems the date is 2028-08-02.'

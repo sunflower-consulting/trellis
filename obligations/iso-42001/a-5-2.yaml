@@ -1,0 +1,26 @@
+id: iso-42001:A.5.2
+instrument: iso-42001
+citation: A.5.2
+title: Repeatable process for assessing AI system impacts
+applies_from: null
+role: both
+system_class:
+- all
+summary: Requires the organisation to have a defined, repeatable way of working out how an AI system
+  could affect people and society, rather than deciding case by case. An auditor looks for the procedure
+  itself and for evidence it was actually applied to this system at the points it claims to apply.
+evidence_expected: The written procedure, showing its trigger points (for example before release
+  and after a material change), who performs it and how results are treated; plus completed assessment
+  records for the LLM application that demonstrate the procedure was followed at those trigger points
+  rather than retrofitted.
+verifiable: review
+status: active
+source_url: https://www.isms.online/iso-42001/annex-a-controls/
+last_checked: '2026-10-15'
+verification: unconfirmed
+notes: 'Identifier and subject area corroborated by three independent secondary sources (isms.online,
+  Nemko, riskprofs); ISO''s own text could not be opened (403 on every iso.org path tried). Title
+  here is our own descriptive label, not the standard''s heading: sources disagree on the heading,
+  with at least one listing A.5.2 under a risk-assessment name. Classified review, not hybrid: the
+  control is the existence of a repeatable process, and no adversarial run can establish or disprove
+  that a process exists.'

@@ -1,0 +1,22 @@
+id: dora:Art.28(1)
+instrument: dora
+citation: Art.28(1)
+title: General principles
+applies_from: '2025-01-17'
+role: entity
+system_class:
+- ict-third-party
+summary: ICT third-party risk must be managed as an integral component of ICT risk inside the Article
+  6(1) framework. An entity using contracted ICT services to run its business remains fully responsible
+  at all times for complying with and discharging its DORA and financial services law obligations,
+  and must apply proportionality to the nature, scale and importance of its ICT dependencies.
+evidence_expected: The part of the framework addressing third-party ICT risk; the proportionality
+  analysis for each dependency; evidence that a third-party supplied AI capability is managed as
+  the entity's own ICT risk rather than as a vendor matter, with named internal ownership.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: The non-delegation principle in point (a) is the answer to a client arguing that a model
+  provider's own certifications discharge its DORA obligations. They do not.

@@ -1,0 +1,23 @@
+id: ai-act:Art.26(9)
+instrument: ai-act
+citation: Art.26(9)
+title: Use of provider information for the data protection impact assessment
+applies_from: '2027-12-02'
+role: deployer
+system_class:
+- annex-iii-high-risk
+summary: Where a data protection impact assessment is required, the deployer must use the information
+  the provider supplied under the transparency article to carry it out.
+evidence_expected: The data protection impact assessment itself, showing on its face that it draws
+  on the provider's instructions for use, including the declared accuracy, robustness and cybersecurity
+  levels and the stated limitations, rather than being written without reference to them.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: The cross-reference is to Art 35 of Regulation (EU) 2016/679 or Art 27 of Directive (EU)
+  2016/680, and applies only where one of those assessments is in fact required. A practical review
+  test is whether the assessment and the provider's instructions contradict each other on performance
+  or limitations. Unamended by the Omnibus. For Annex I product-embedded high-risk systems the date
+  is 2028-08-02.

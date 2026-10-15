@@ -1,0 +1,21 @@
+id: cra:Annex I Part II(7)
+instrument: cra
+citation: Annex I Part II(7)
+title: Vulnerability handling requirements
+applies_from: '2027-12-11'
+role: manufacturer
+system_class:
+- product-with-digital-elements
+summary: The manufacturer must provide mechanisms that distribute updates securely, so vulnerabilities
+  are fixed or mitigated in good time and, where it applies to security updates, automatically.
+evidence_expected: Design documentation for the update channel covering signing and transport protection,
+  key management records, and test results for update integrity and rollback.
+verifiable: hybrid
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'One of the few provisions in this set where an adversarial run genuinely bears on the requirement:
+  the update channel can be attacked directly, and unsigned or tamperable updates evidence failure.
+  Whether the mechanism exists and is operated correctly still needs the design and key-management
+  record.'

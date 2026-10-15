@@ -1,0 +1,26 @@
+id: dora:Art.27(2)
+instrument: dora
+citation: Art.27(2)
+title: Requirements for testers for the carrying out of TLPT
+applies_from: '2025-01-17'
+role: entity
+system_class:
+- important-entity
+summary: 'When internal testers are used, three further conditions apply on top of Article 27(1):
+  the competent authority or the designated single public authority must have approved that use,
+  the authority must have verified that the entity has sufficient dedicated resources and has avoided
+  conflicts of interest across test design and execution, and the threat intelligence provider must
+  be external to the entity.'
+evidence_expected: The authority's written approval of internal tester use; the resourcing and conflict-of-interest
+  evidence put before the authority; the contract with the external threat intelligence provider
+  showing it sits outside the entity.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: Commission Delegated Regulation (EU) 2025/1190 Art.15 sets out the internal tester arrangements
+  in detail, including a documented and periodically reviewed policy, an internal team of a test
+  lead plus at least two further members, and a requirement that all team members have been employed
+  by the entity or an intra-group provider for the preceding twelve months. Its Art.15(4) treats
+  testers employed by an ICT intra-group service provider as internal testers.

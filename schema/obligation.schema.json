@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/sunflower-consulting/trellis/schema/obligation.schema.json",
+  "title": "Obligation record",
+  "description": "One thing a regulation requires, in a form a test result can be mapped to. The text here is Sunflower's summary, never the instrument's own wording: a regulation is authoritative in its own language and a paraphrase that reads as a quotation is the fastest way to mislead a reader who cannot check.",
+  "type": "object",
+  "required": ["id", "instrument", "citation", "role", "system_class", "summary",
+               "evidence_expected", "verifiable", "status", "source_url", "last_checked"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+:[A-Za-z0-9()./§ -]+$",
+      "description": "instrument:citation, e.g. `ai-act:Art.15(4)`. Readable in a client deliverable without a key, and parseable with one split so a renderer can group by instrument without a join."
+    },
+    "instrument": {
+      "enum": ["ai-act", "dora", "digitalsikkerhetsloven", "cra", "iso-42001"],
+      "description": "Closed. A new instrument is a decision about what this firm advises on, not a new string."
+    },
+    "citation": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "description": "The article or clause heading, where the instrument gives one." },
+    "applies_from": {
+      "type": ["string", "null"],
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "The date this bites. Null only where the instrument sets no date of its own (a standard's clause, which binds when an organisation claims conformity rather than on a calendar). Required to be present so nobody has to infer it from the instrument's general entry into force, which is a different date and moved once already."
+    },
+    "role": {
+      "enum": ["provider", "deployer", "both", "manufacturer", "entity"],
+      "description": "Who carries it. A client is usually a deployer and sometimes both, and an obligation mapped to the wrong role is advice to do somebody else's work."
+    },
+    "system_class": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "enum": ["annex-iii-high-risk", "annex-i-high-risk", "gpai",
+                          "gpai-systemic-risk", "limited-risk", "minimal-risk",
+                          "prohibited", "all", "ict-third-party", "important-entity",
+                          "product-with-digital-elements",
+                          "samfunnsviktig-tjeneste", "digital-tjeneste"] },
+      "description": "Which classes this applies to. Keyed to what `tier/` can produce, so a test can assert the join closes."
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 20,
+      "description": "What it requires, in our own words, in one or two sentences."
+    },
+    "evidence_expected": {
+      "type": "string",
+      "minLength": 20,
+      "description": "What a reviewer must be able to put in front of an auditor to say this is met. The field that makes a `review` obligation a handover rather than an excuse."
+    },
+    "verifiable": {
+      "enum": ["test", "review", "hybrid"],
+      "description": "What kind of evidence could EVER satisfy this, independent of any engagement. `test`: an adversarial run can produce it. `review`: no probe establishes it. `hybrid`: a test shows the control failed, only a review shows it exists."
+    },
+    "status": {
+      "enum": ["active", "superseded", "withdrawn"],
+      "description": "Obligations are amended, never deleted: a report citing one must stay explainable after it changes."
+    },
+    "superseded_by": { "type": "string", "description": "Required when status is superseded." },
+    "status_reason": { "type": "string" },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Where this was read. For `ai-act`, `dora`, `cra` this must be EUR-Lex, so a client's own counsel can check it without asking us."
+    },
+    "last_checked": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "These dates moved once, via the Digital Omnibus, and will move again. A record with no check date is a claim about a moving target with no indication of when it was true."
+    },
+    "verification": {
+      "enum": ["source-confirmed", "unconfirmed"],
+      "description": "Whether the citation and date were read off the linked official text, or carried from secondary sources. `unconfirmed` is publishable and must be visible; a wrong article number in a client deliverable is worse than a missing one."
+    },
+    "notes": { "type": "string" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "status": { "const": "superseded" } }, "required": ["status"] },
+      "then": { "required": ["superseded_by"] }
+    },
+    {
+      "if": { "properties": { "status": { "const": "withdrawn" } }, "required": ["status"] },
+      "then": { "required": ["status_reason"] }
+    }
+  ]
+}

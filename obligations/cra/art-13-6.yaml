@@ -1,0 +1,21 @@
+id: cra:Art.13(6)
+instrument: cra
+citation: Art.13(6)
+title: Obligations of manufacturers
+applies_from: '2027-12-11'
+role: manufacturer
+system_class:
+- product-with-digital-elements
+summary: On finding a vulnerability in an integrated component, including an open-source one, the
+  manufacturer must report it to whoever makes or maintains that component and must fix it under
+  the vulnerability-handling requirements. If it wrote a fix, it must pass the code or documentation
+  upstream.
+evidence_expected: Upstream reports or issue threads for component vulnerabilities, with dates tied
+  to internal discovery dates, plus the patches or documentation shared upstream.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: Directly engaged by an LLM application built on third-party or open-source model and inference
+  components. No probe can show whether an upstream report was sent, so this is review only.

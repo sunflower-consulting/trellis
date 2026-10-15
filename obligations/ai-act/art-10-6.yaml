@@ -1,0 +1,26 @@
+id: ai-act:Art.10(6)
+instrument: ai-act
+citation: Art.10(6)
+title: Data governance for high-risk systems not built by training models
+applies_from: '2027-12-02'
+role: provider
+system_class:
+- annex-iii-high-risk
+summary: Where a high-risk system is developed without techniques that train AI models on data,
+  the governance, representativeness and contextual criteria, and the sensitive-data bias conditions,
+  bite only on the testing data sets.
+evidence_expected: A reasoned classification of whether the system was developed using model-training
+  techniques, and, where it was not, the governance and quality documentation for the testing data
+  sets specifically.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'Replaced by the Omnibus (Reg (EU) 2026/1744, Art 1), which added the Article 4a(1) cross-reference.
+  Directly load-bearing for a common LLM deployment shape: an application assembled on a third-party
+  foundation model with no training or fine-tuning by the provider of the high-risk system may fall
+  under this narrower scope, making the classification itself the first thing a reviewer must pin
+  down. Note that the Omnibus deleted the former Art 10(5); any catalog entry citing Art 10(5) is
+  now stale. For Annex I product-embedded high-risk systems the date is 2028-08-02. Amending act:
+  http://data.europa.eu/eli/reg/2026/1744/oj'

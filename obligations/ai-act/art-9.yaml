@@ -1,0 +1,32 @@
+id: ai-act:Art.9
+instrument: ai-act
+citation: Art.9
+title: Risk management system
+applies_from: '2027-12-02'
+role: provider
+system_class:
+- annex-iii-high-risk
+summary: The provider must run a documented, continuously updated risk management process over the
+  whole life of the system, covering risks to health, safety and fundamental rights in both intended
+  use and reasonably foreseeable misuse, and adopt measures that bring each residual risk and the
+  overall residual risk to a level judged acceptable. The system must also be tested before it goes
+  to market against metrics and probabilistic thresholds fixed in advance.
+evidence_expected: 'The risk management file as a living document: a hazard and risk register tied
+  to the stated intended purpose and to foreseeable misuse, the risk measures adopted against each
+  entry, the residual-risk acceptability decision with the name and authority of whoever made it,
+  the pre-market test protocol showing its metrics and thresholds were defined beforehand, and a
+  revision history showing systematic review rather than a one-off exercise.'
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'Classified review, not hybrid, deliberately. Paragraphs 6 to 8 require pre-market testing,
+  so test reports form part of the evidence, but the duty itself is a process: no adversarial run
+  can establish that the process exists, that it is iterative, or that residual risk was judged
+  acceptable by someone competent. A red-team finding of an unmitigated foreseeable risk is corroborating
+  evidence of a gap under paragraph 2(d); it is not evidence of compliance with the article. Paragraph
+  9 requires explicit consideration of whether the system adversely affects under-18s and other
+  vulnerable groups. Paragraph 10 lets firms already subject to Union internal-risk-management law
+  combine this with those procedures. Unamended by the Omnibus. For Annex I product-embedded high-risk
+  systems the date is 2028-08-02.'

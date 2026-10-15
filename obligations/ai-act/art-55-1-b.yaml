@@ -1,0 +1,22 @@
+id: ai-act:Art.55(1)(b)
+instrument: ai-act
+citation: Art.55(1)(b)
+title: Obligations of providers of general-purpose AI models with systemic risk
+applies_from: '2025-08-02'
+role: provider
+system_class:
+- gpai-systemic-risk
+summary: The provider must assess and mitigate systemic risks at EU level, including where those
+  risks come from. The duty covers risks arising from developing the model, placing it on the market
+  and using it.
+evidence_expected: The systemic risk assessment, identifying sources and covering the development,
+  market and use phases, together with the mitigations chosen, the residual risk accepted and who
+  signed it off; plus evidence the assessment was revisited for material model changes.
+verifiable: hybrid
+status: active
+source_url: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-55
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'Date read off Article 113(2): 2 August 2025, not postponed. Classified hybrid: a probe that
+  elicits an unmitigated systemic-risk behaviour is evidence the mitigation limb failed, but the
+  assessment itself is a document and no probe shows it exists or that its scope was adequate.'

@@ -1,0 +1,25 @@
+id: dora:Art.26(4)
+instrument: dora
+citation: Art.26(4)
+title: Advanced testing of ICT tools, systems and processes based on TLPT
+applies_from: '2025-01-17'
+role: entity
+system_class:
+- ict-third-party
+summary: Where a provider's participation would be reasonably expected to harm the quality or security
+  of its services to customers outside DORA's scope, or the confidentiality of data relating to
+  those services, the entity and the provider may agree in writing that the provider contracts an
+  external tester directly for a pooled test covering several financial entities under one designated
+  entity's direction. The pooled test counts as the TLPT of each participating entity.
+evidence_expected: The written agreement with the provider; the designation of the directing entity;
+  the pooled test's scope showing it covers the relevant range of ICT services supporting critical
+  or important functions contracted to that provider; the calibration rationale for how many entities
+  took part.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: Practically the route for a shared AI or cloud inference platform serving many financial
+  entities alongside non-financial customers. Commission Delegated Regulation (EU) 2025/1190 Arts.6
+  and 8 add risk management and procedural specifics for pooled and joint tests.

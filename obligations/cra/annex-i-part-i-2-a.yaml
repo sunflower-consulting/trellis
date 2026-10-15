@@ -1,0 +1,23 @@
+id: cra:Annex I Part I(2)(a)
+instrument: cra
+citation: Annex I Part I(2)(a)
+title: Essential cybersecurity requirements, Part I
+applies_from: '2027-12-11'
+role: manufacturer
+system_class:
+- product-with-digital-elements
+summary: Subject to the product's risk assessment, a product with digital elements must be put on
+  the market free of known exploitable vulnerabilities.
+evidence_expected: Pre-release security test and scan results with triage decisions, the vulnerability
+  register as it stood at release, and the risk assessment showing the requirement was treated as
+  applicable.
+verifiable: hybrid
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: The sharpest epistemic case in this set, and a place where a dataset could easily overclaim.
+  A red-team run can show an exploitable vulnerability is present, which is real evidence of breach.
+  It cannot show the vulnerability was known at the moment of placing on the market, and knowledge
+  is what the requirement turns on. So a test can disconfirm, but only the release records can establish
+  compliance.

@@ -1,0 +1,21 @@
+id: ai-act:Art.26(4)
+instrument: ai-act
+citation: Art.26(4)
+title: Relevance and representativeness of deployer-controlled input data
+applies_from: '2027-12-02'
+role: deployer
+system_class:
+- annex-iii-high-risk
+summary: To the extent the deployer controls the input data, it must ensure that data is relevant
+  and sufficiently representative for the system's intended purpose.
+evidence_expected: A statement of which inputs the deployer controls, and a relevance and representativeness
+  assessment of those inputs against the intended purpose, refreshed as the input sources change.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: Materially important for a retrieval-augmented LLM deployment, where the deployer typically
+  controls the document corpus, the embedding pipeline and the prompt context, and so carries this
+  duty for them even though it did not build the model. Unamended by the Omnibus. For Annex I product-embedded
+  high-risk systems the date is 2028-08-02.

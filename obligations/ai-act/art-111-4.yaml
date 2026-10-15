@@ -1,0 +1,29 @@
+id: ai-act:Art.111(4)
+instrument: ai-act
+citation: Art.111(4)
+title: AI systems already placed on the market or put into service and general-purpose AI models
+  already placed on the market
+applies_from: '2026-12-02'
+role: provider
+system_class:
+- limited-risk
+- gpai
+summary: Providers of systems that generate synthetic audio, image, video or text and were already
+  on the market before 2 August 2026 get until 2 December 2026 to bring those systems into line
+  with the machine-readable marking duty. It is a transition period for legacy deployments, not
+  a new substantive requirement.
+evidence_expected: An inventory of synthetic-content systems placed on the market before 2 August
+  2026, and for each one dated evidence that marking was in place by 2 December 2026, with detector
+  output on output generated after that date.
+verifiable: hybrid
+status: active
+source_url: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-111
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'Flagged NEW in the consolidated text: added by the Digital Omnibus, and the only addition
+  to Article 111. Worth a record of its own because the date differs from the Article 50(2) date
+  it modifies and it is the provision an assurance review of a pre-August-2026 product needs. As
+  of today, 15 October 2026, this transition has not yet expired, so a legacy system without marking
+  is not yet in breach of Article 50(2); that changes on 2 December 2026. Classified hybrid for
+  the same reason as Article 50(2): a detector shows absence or presence, but not robustness, interoperability
+  or the feasibility judgement.'

@@ -1,0 +1,23 @@
+id: dora:Art.27(3)
+instrument: dora
+citation: Art.27(3)
+title: Requirements for testers for the carrying out of TLPT
+applies_from: '2025-01-17'
+role: entity
+system_class:
+- important-entity
+summary: The entity must ensure its contracts with external testers require sound management of
+  the test results, and that any processing of those results, including generating, storing, aggregating,
+  drafting, reporting, communicating or destroying them, does not create risks for the entity.
+evidence_expected: Contract clauses on handling, storage, retention and destruction of test results
+  and findings; the tester's data handling and destruction records; evidence that credentials and
+  other secrets exposed during testing were securely deleted and the compromise communicated.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: Acutely relevant where an AI red-team engagement produces reusable attack artefacts such
+  as working jailbreak prompts or extracted training or retrieval data, since those are test results
+  whose handling this paragraph governs. Commission Delegated Regulation (EU) 2025/1190 Art.7(1)(g)
+  spells out the end-of-test restoration and secure deletion steps.

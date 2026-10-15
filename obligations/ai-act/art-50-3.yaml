@@ -1,0 +1,26 @@
+id: ai-act:Art.50(3)
+instrument: ai-act
+citation: Art.50(3)
+title: Transparency obligations for providers and deployers of certain AI systems
+applies_from: '2026-08-02'
+role: deployer
+system_class:
+- limited-risk
+summary: A deployer of an emotion recognition or biometric categorisation system must tell the people
+  exposed to it how the system operates, and must handle their personal data under the applicable
+  EU data protection law. Certain legally authorised criminal-law uses are excepted.
+evidence_expected: The notice as exposed persons actually receive it, with evidence of when and
+  where it is served; plus the data protection record for the processing, typically the Article
+  30 GDPR record and any impact assessment, and a determination of whether the deployed feature
+  performs emotion inference or biometric categorisation at all.
+verifiable: hybrid
+status: active
+source_url: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'Date is the Article 113 general date of 2 August 2026; unflagged in the consolidated text,
+  so not touched by the Digital Omnibus. Included because assistants that infer user sentiment or
+  emotional state can fall in scope. Classified hybrid: a probe can show the notice is missing,
+  but whether the feature is emotion recognition within the definition, and whether the data protection
+  limb is met, are review questions. Note the separate Article 5(1)(f) prohibition on emotion inference
+  in workplaces and education, which overrides rather than supplements this paragraph.'

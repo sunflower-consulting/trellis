@@ -1,0 +1,31 @@
+id: ai-act:Art.14(4)
+instrument: ai-act
+citation: Art.14(4)
+title: Capabilities the overseer must be enabled to exercise
+applies_from: '2027-12-02'
+role: provider
+system_class:
+- annex-iii-high-risk
+summary: The system must reach the deployer in a state where the people assigned to oversee it are
+  enabled, so far as appropriate and proportionate, to understand its capacities and limits and
+  duly monitor its operation (including detecting and addressing anomalies, dysfunctions and unexpected
+  performance), stay alert to the pull of relying or over-relying on its output, interpret output
+  correctly, decide not to use the system at all or to disregard, override or reverse its output,
+  and intervene in or interrupt the system so that it comes to rest in a safe state.
+evidence_expected: 'Demonstration against each limb: the monitoring and anomaly surfaces available
+  to the overseer, the training or guidance addressing automation bias, the interpretation aids,
+  and a tested override and stop path showing the system actually comes to rest in a safe state
+  when invoked.'
+verifiable: hybrid
+status: active
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'The most testable limbs of the oversight requirement: the presence and behaviour of an intervention
+  or stop control under point (e), and the override path under point (d), can be exercised directly
+  against the deployed system. The automation-bias awareness limb under point (b) is a training
+  and process matter that no probe reaches, which is why this is hybrid and not test. Paragraph
+  5, requiring separate confirmation by two competent people for remote biometric identification
+  under Annex III point 1(a), is not reached by a typical LLM application and is not recorded separately.
+  Unamended by the Omnibus. For Annex I product-embedded high-risk systems the date is 2028-08-02.
+  Summary replaced on review against the consolidated text.'

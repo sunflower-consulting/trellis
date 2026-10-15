@@ -1,0 +1,25 @@
+id: ai-act:Art.10(1)
+instrument: ai-act
+citation: Art.10(1)
+title: Data and data governance - quality criteria for data sets
+applies_from: '2027-12-02'
+role: provider
+system_class:
+- annex-iii-high-risk
+summary: Where a high-risk system is built by training models on data, the training, validation
+  and testing data sets used must satisfy the governance, representativeness and contextual criteria
+  set out later in the article and the safeguards attached to sensitive-data bias work. The duty
+  attaches to whichever of those data sets are actually used.
+evidence_expected: A data inventory naming each training, validation and testing set actually used,
+  mapped to the criteria in paragraphs 2, 3 and 4 and to the Art 4a(1) conditions where sensitive
+  data was involved, with the assessment recorded per set rather than asserted globally.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'Replaced by the Omnibus (Reg (EU) 2026/1744, Art 1), which added the cross-reference to
+  the new Article 4a(1) and the qualifier limiting the duty to data sets that are in fact used.
+  Verifying this needs inspection of data and documentation, not a probe of the deployed system,
+  so it is review even though the subject matter is technical. For Annex I product-embedded high-risk
+  systems the date is 2028-08-02. Amending act: http://data.europa.eu/eli/reg/2026/1744/oj'

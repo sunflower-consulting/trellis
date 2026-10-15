@@ -1,0 +1,27 @@
+id: dora:RTS (EU) 2025/1190 Art.9(6)
+instrument: dora
+citation: RTS (EU) 2025/1190 Art.9(6)
+title: Preparation phase
+applies_from: '2025-07-08'
+role: entity
+system_class:
+- important-entity
+summary: Within six months of the TLPT authority's notification the entity must submit a scope specification
+  document containing all the information required by Annex II, and its management body must approve
+  that document. Article 9(7) lists the criteria for deciding which critical or important functions
+  to include, among them criticality and sectoral impact, importance to day-to-day operations, exchangeability,
+  interconnectedness, geographical location, other entities' dependence, and available threat intelligence
+  on the function.
+evidence_expected: The scope specification document in Annex II form with its management body approval
+  and date, inside the six-month window from notification; the reasoning against each Art.9(7) criterion
+  for functions included and excluded; the TLPT authority's approval of the document; the project
+  charter and initiation information submitted within three months under Art.9(2).
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg_del/2025/1190/oj/eng
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: The obligation and its deadlines come from the delegated regulation; DORA Art.26(2) requires
+  only that the scope assessment be validated by competent authorities. Nothing in the criteria
+  mentions AI, so an AI-supported function enters scope through ordinary criticality analysis, not
+  a dedicated route.

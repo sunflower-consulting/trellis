@@ -1,0 +1,23 @@
+id: cra:Art.14(1)-(2)
+instrument: cra
+citation: Art.14(1)-(2)
+title: Reporting obligations of manufacturers
+applies_from: '2026-09-11'
+role: manufacturer
+system_class:
+- product-with-digital-elements
+summary: A manufacturer that learns of an actively exploited vulnerability in its product must notify
+  the coordinating CSIRT and ENISA at the same time, through the single reporting platform. An early
+  warning is due within 24 hours, a fuller notification within 72 hours, and a final report no later
+  than 14 days after a fix or mitigation is available.
+evidence_expected: Platform submission receipts for each of the three stages, timestamped against
+  the internal record of when the manufacturer became aware, plus the final report's description
+  of the vulnerability, severity and remedy.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'Already in force: Art.14 applies from 11 September 2026 under Art.71(2), ahead of the rest
+  of the CRA. This is the date most likely to be reported wrongly as 11 December 2027. Reporting
+  to an authority leaves only a documentary trail, so no adversarial run can establish compliance.'

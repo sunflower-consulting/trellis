@@ -1,0 +1,28 @@
+id: ai-act:Art.10(2)
+instrument: ai-act
+citation: Art.10(2)
+title: Data governance and management practices
+applies_from: '2027-12-02'
+role: provider
+system_class:
+- annex-iii-high-risk
+summary: The data sets must sit under governance practices suited to the system's intended purpose,
+  spanning design choices, where the data came from and what it was originally collected for, preparation
+  steps such as labelling and cleaning, the assumptions built into the data, whether enough suitable
+  data exists, and identified gaps. It also requires examining the data for biases that could harm
+  health and safety, affect fundamental rights or produce unlawful discrimination, and taking measures
+  to detect, prevent and mitigate any found.
+evidence_expected: 'Data governance documentation per data set: provenance and original collection
+  purpose, the preparation and annotation pipeline, the written assumptions about what the data
+  represents, a suitability and sufficiency assessment, the bias examination with its method and
+  results, the mitigation measures taken against each bias found, and a register of known data gaps
+  with remediation plans.'
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: Points (f) and (g) are the bias limbs that the new Article 4a(1) attaches its sensitive-data
+  conditions to. Point (f) calls out the case where outputs feed back into future inputs, which
+  overlaps the feedback-loop duty in Art 15(4). Unamended by the Omnibus. For Annex I product-embedded
+  high-risk systems the date is 2028-08-02.

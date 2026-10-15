@@ -1,0 +1,23 @@
+id: cra:Annex I Part II(6)
+instrument: cra
+citation: Annex I Part II(6)
+title: Vulnerability handling requirements
+applies_from: '2027-12-11'
+role: manufacturer
+system_class:
+- product-with-digital-elements
+summary: The manufacturer must take measures making it easier to share information about potential
+  vulnerabilities in its product and in the third-party components inside it, including by publishing
+  a contact address for reporting vulnerabilities found in the product.
+evidence_expected: The published reporting contact and where it appears in the product's user information,
+  plus records showing inbound reports are received and routed.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: Classified conservatively. One could call this hybrid on the basis that sending a test report
+  can show the intake channel is dead, but the duty is organisational and the contact address is
+  published product information, checked by inspection rather than by an adversarial run. Art.13(17)
+  separately requires a single point of contact that does not force users through automated tools
+  only.

@@ -1,0 +1,21 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The obligation records under obligations/, the crosswalk under crosswalk/, the
+technique vocabulary under taxonomy/, the classification rules under tier/ and
+calendar.yaml are licensed under CC BY 4.0.
+
+    https://creativecommons.org/licenses/by/4.0/
+
+You may share and adapt this material, including commercially, provided you give
+appropriate credit and indicate if changes were made.
+
+Attribution: Sunflower Consulting, https://github.com/sunflower-consulting/trellis
+
+NOT covered by this licence, and not reproduced here:
+
+  * The text of any regulation. EU legal texts are available from EUR-Lex under
+    its own reuse terms; every record links to the text it was read from rather
+    than copying it.
+  * ISO/IEC 42001. That is a paid standard. Records referencing it carry the
+    control IDENTIFIER and our own description of what an auditor looks for, and
+    reproduce none of the standard's wording.

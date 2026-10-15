@@ -1,0 +1,21 @@
+id: cra:Annex I Part II(1)
+instrument: cra
+citation: Annex I Part II(1)
+title: Vulnerability handling requirements
+applies_from: '2027-12-11'
+role: manufacturer
+system_class:
+- product-with-digital-elements
+summary: The manufacturer must identify and document the vulnerabilities and components in the product,
+  which includes producing a software bill of materials in a common machine-readable format covering
+  at least the product's top-level dependencies.
+evidence_expected: The SBOM itself in a machine-readable format, its generation and update process,
+  and the vulnerability register it feeds.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: Only top-level dependencies are required as a floor, though the Commission may specify the
+  format by implementing act. An SBOM is an artefact; no probe against a running system can produce
+  it, so this is review and nothing more.

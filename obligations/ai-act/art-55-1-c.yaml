@@ -1,0 +1,23 @@
+id: ai-act:Art.55(1)(c)
+instrument: ai-act
+citation: Art.55(1)(c)
+title: Obligations of providers of general-purpose AI models with systemic risk
+applies_from: '2025-08-02'
+role: provider
+system_class:
+- gpai-systemic-risk
+summary: The provider must keep track of serious incidents, document them, and report them together
+  with possible corrective measures to the AI Office and, where relevant, national authorities.
+  Reporting must happen without undue delay.
+evidence_expected: The incident procedure with its severity thresholds and escalation path, the
+  incident log, and for each logged incident the detection time, the report time and the corrective
+  measures notified, so that the delay can actually be measured.
+verifiable: review
+status: active
+source_url: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-55
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'Date read off Article 113(2): 2 August 2025, not postponed. Classified review: no adversarial
+  run can establish that a provider tracks, documents and reports incidents to a regulator, or that
+  it does so without undue delay. A probe may generate an incident but cannot observe the reporting
+  pathway, so test evidence has no purchase on this duty at all.'

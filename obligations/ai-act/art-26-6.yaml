@@ -1,0 +1,26 @@
+id: ai-act:Art.26(6)
+instrument: ai-act
+citation: Art.26(6)
+title: Deployer retention of automatically generated logs
+applies_from: '2027-12-02'
+role: deployer
+system_class:
+- annex-iii-high-risk
+summary: The deployer must keep the logs the system generates automatically, so far as those logs
+  are under its control, for a period suited to the intended purpose and in any event for at least
+  six months, unless other Union or national law, in particular data protection law, requires otherwise.
+evidence_expected: The log retention configuration and policy showing the period held, a reasoned
+  statement of which logs are under the deployer's control as opposed to the provider's, the justification
+  for the period chosen against the intended purpose, and any data-protection constraint relied
+  on to hold them for a different time.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: Review rather than hybrid, deliberately. A probe can show logs exist, but the obligation
+  is about a retention period that no adversarial run occupying hours or days can observe; establishing
+  it means inspecting retention configuration and log age. The division of control between provider
+  and deployer is the first thing to pin down in a hosted-model deployment. Financial institutions
+  keep these as part of their financial-services documentation. Unamended by the Omnibus. For Annex
+  I product-embedded high-risk systems the date is 2028-08-02.

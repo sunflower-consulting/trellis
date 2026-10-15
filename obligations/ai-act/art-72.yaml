@@ -1,0 +1,31 @@
+id: ai-act:Art.72
+instrument: ai-act
+citation: Art.72
+title: Post-market monitoring by providers and post-market monitoring plan for high-risk AI systems
+applies_from: '2027-12-02'
+role: provider
+system_class:
+- annex-iii-high-risk
+summary: A provider of a high-risk system must set up and document a post-market monitoring system,
+  proportionate to the technology and its risks, that actively and systematically gathers and analyses
+  performance data over the system's life, including data from deployers. The monitoring must rest
+  on a written plan that forms part of the technical documentation.
+evidence_expected: 'The post-market monitoring plan as part of the Annex IV technical documentation,
+  plus evidence it is actually running: the data actually collected, the analyses performed against
+  the Chapter III Section 2 requirements, and the changes or corrective actions that followed.'
+verifiable: review
+status: active
+source_url: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-72
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'Date caveat, and the one a reviewer is most likely to get wrong. 2026-08-02 is an inference,
+  not a date stated in the article: Article 113 sets a general application date of 2 August 2026
+  and lists no exception covering Chapter IX, where Article 72 sits, so the article itself bites
+  then. But its substance binds providers of high-risk systems, and the Digital Omnibus moved the
+  Chapter III Sections 1-3 obligations to 2 December 2027 for Annex III systems and 2 August 2028
+  for Annex I systems, so in practice the duty has nothing to attach to until a system is within
+  those deferred regimes. Do not report this as a live 2026 duty for a deployment that is not yet
+  high-risk-regulated. Classified review: a monitoring system and plan are documentation and process,
+  and no probe against a deployed system can establish either exists. Date corrected on review to
+  2027-12-02, the Annex III route a deployed LLM application takes; an Annex I product-embedded
+  system follows 2028-08-02.'

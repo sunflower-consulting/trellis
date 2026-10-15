@@ -1,0 +1,125 @@
+# The dates, each with where it came from and how well it is established.
+#
+# WHY THE PROVENANCE IS PER ENTRY.
+#
+# These moved once. The Digital Omnibus on AI pushed the high-risk dates back after
+# they had already been set, published and put in a hundred slide decks, and a dataset
+# that had simply carried the old numbers forward would have been confidently wrong
+# for months.
+#
+# So every entry says what established it. `confirmed` means read off the official
+# text at `source`. `secondary` means taken from a reputable summary and not yet
+# checked against the instrument - publishable, and not to be put in front of a client
+# without checking first. The distinction is the point: a calendar where everything
+# looks equally certain is a calendar nobody re-checks.
+schema_version: 1
+last_reviewed: 2026-10-15
+
+milestones:
+  - date: 2025-02-02
+    instrument: ai-act
+    what: Prohibited practices under Article 5 become enforceable.
+    confidence: secondary
+    source: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689
+
+  - date: 2025-08-02
+    instrument: ai-act
+    what: >-
+      Obligations for providers of general-purpose AI models begin to apply. Not
+      postponed by the Digital Omnibus.
+    confidence: secondary
+    source: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689
+
+  - date: 2026-07-27
+    instrument: ai-act
+    what: >-
+      The Digital Omnibus on AI, Regulation (EU) 2026/1744, enters into force. It moved
+      the high-risk dates and did not change the classification rules or the content of
+      the obligations - which is why mapping work done before it did not expire.
+    confidence: confirmed
+    source: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026R1744
+
+  - date: 2026-08-02
+    instrument: ai-act
+    what: >-
+      The AI Act applies in general, including the Article 50 transparency duties that
+      bind a customer-facing assistant. These were NOT postponed, which is the single
+      most commercially relevant date in this file: the obligations that bite on an
+      ordinary chatbot are already live while the high-risk ones are a year away.
+    confidence: confirmed
+    source: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689
+
+  - date: 2026-09-11
+    instrument: cra
+    what: Vulnerability-handling and reporting duties under the Cyber Resilience Act begin.
+    confidence: secondary
+    source: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R2847
+
+  - date: 2027-08-02
+    instrument: ai-act
+    what: Member States must have national regulatory sandboxes in place.
+    confidence: secondary
+    source: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689
+
+  - date: 2027-12-02
+    instrument: ai-act
+    what: >-
+      Obligations for stand-alone high-risk systems under Annex III apply. Moved here
+      from 2026-08-02 by the Digital Omnibus.
+    confidence: confirmed
+    source: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026R1744
+
+  - date: 2027-12-11
+    instrument: cra
+    what: The Cyber Resilience Act applies in full.
+    confidence: secondary
+    source: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R2847
+
+  - date: 2028-08-02
+    instrument: ai-act
+    what: >-
+      Obligations for high-risk AI embedded in products under Annex I apply. Moved here
+      from 2027-08-02 by the Digital Omnibus. A different date from Annex III, and
+      conflating the two is the most common error in circulation.
+    confidence: confirmed
+    source: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026R1744
+
+# Sector dates that decide whether a Norwegian client is in scope of anything at all,
+# which is usually a more urgent question for them than the AI Act timeline.
+  - date: 2025-01-17
+    instrument: dora
+    what: DORA applies across the EU.
+    confidence: secondary
+    source: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2554
+
+  - date: 2025-07-01
+    instrument: dora
+    what: DORA in force in Norway.
+    confidence: secondary
+    source: https://lovdata.no/
+
+  - date: 2025-10-01
+    instrument: nis2-no
+    what: >-
+      Norway's Digital Security Act in force, carrying incident-notification duties
+      and security requirements for entities in scope.
+    confidence: secondary
+    source: https://lovdata.no/
+
+  - date: 2026-09-01
+    instrument: dora
+    what: >-
+      DORA extended in Norway to further categories of entity, including finance
+      companies, estate agents and debt collectors.
+    confidence: secondary
+    source: https://lovdata.no/
+
+open_checks:
+  - >-
+    Every entry marked `secondary` wants one pass against the official text. The
+    Omnibus-moved dates are confirmed and are the ones most likely to be quoted, so
+    they were checked first.
+  - >-
+    Whether Norway is bound by NIS2 itself through the EEA agreement, as distinct from
+    having its own Digital Security Act. These are different questions and are often
+    run together.

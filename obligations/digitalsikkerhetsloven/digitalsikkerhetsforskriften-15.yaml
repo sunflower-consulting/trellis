@@ -1,0 +1,29 @@
+id: digitalsikkerhetsloven:digitalsikkerhetsforskriften § 15
+instrument: digitalsikkerhetsloven
+citation: digitalsikkerhetsforskriften § 15
+title: Tiltak for sikkerhetsstyring for tilbydere av digitale tjenester og kriterier for å avgjøre
+  om en hendelse skal anses for å ha betydelig innvirkning (security management measures for digital
+  service providers and criteria for significant impact)
+applies_from: '2025-10-01'
+role: entity
+system_class:
+- digital-tjeneste
+summary: For providers of digital services, the detailed security management measures and the test
+  for when an incident counts as having significant impact are set by making EU Regulation 2018/151
+  apply as Norwegian regulation, with the adaptations that follow from the EEA Agreement. So a digital
+  service provider's operative detail sits in that incorporated EU regulation rather than in the
+  Norwegian text.
+evidence_expected: Controls and incident-significance assessments mapped to the elements of Regulation
+  (EU) 2018/151 as incorporated, rather than to the Norwegian regulation's Chapter 2 measures.
+verifiable: review
+status: active
+source_url: https://lovdata.no/dokument/SF/forskrift/2025-06-20-1131
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'A likely source of error for anyone cataloguing this act: the detailed technological measures
+  in forskrift § 10 do not apply to digital service providers, who are routed to Regulation (EU)
+  2018/151 instead. Regulation 2018/151 is a NIS1 implementing regulation, which is consistent with
+  this act implementing NIS1. I did not separately open 2018/151, so its contents are not confirmed
+  here. Filed under digitalsikkerhetsloven rather than a NIS2 key: this statute transposes Directive
+  (EU) 2016/1148 (NIS1) through the EEA agreement, and Norway has not transposed NIS2. Labelling
+  it NIS2 would misstate which regime a client is in.'

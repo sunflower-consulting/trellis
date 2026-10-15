@@ -1,0 +1,1176 @@
+# Technique -> the obligations a result for it produces evidence for.
+#
+# Generated from families rather than hand-written per technique: the rationale for
+# `llm01-direct-override` and `llm01-encoding-bypass` is genuinely the same sentence,
+# and thirty copies of it typed separately would drift. Edit a family here and
+# regenerate, or edit an entry directly once it needs its own reason.
+#
+# last_reviewed: 2026-10-15
+schema_version: 1
+techniques:
+  jailbreak-crescendo:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  jailbreak-harmful-content:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  jailbreak-many-shot:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  jailbreak-roleplay:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-adversarial-suffix:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-authority-pretext:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-chat-template:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-context-flooding:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-context-poisoning:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-continuation-framing:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-direct-override:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-encoding-bypass:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-forged-history:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-fragment-reassembly:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-goal-hijack:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-indirect-audio:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-indirect-calendar:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-indirect-conditional:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-indirect-content:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-indirect-doc:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-indirect-email:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-indirect-image:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-indirect-invisible:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-indirect-metadata:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-indirect-ocr:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-indirect-persistent:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-indirect-profile:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-indirect-tool-output:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-indirect-upload:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-indirect-web:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-language-pivot:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-prefix-seeding:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-refusal-suppression:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm01-unicode-smuggling:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.15(5)
+    - ai-act:Art.55(1)(b)
+    rationale: A technique that makes the system depart from its own instructions on crafted input
+      is direct evidence about resilience to manipulation. The AI Act requires high-risk systems
+      to be resilient to attempts to alter their use or behaviour by exploiting vulnerabilities,
+      and the sector security duties require technical measures against exactly this class of attack
+      on a service a client depends on.
+  llm02-config-disclosure:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm02-cross-tenant-rag:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm02-enumeration:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm02-error-disclosure:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm02-memory-bleed:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm02-oob-disclosure:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm02-other-user-record:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm02-pii-in-context:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm02-pretext-disclosure:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm05-exfil-via-injection:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - cra:Annex I Part I(2)(a)
+    - cra:Art.13(8)
+    - cra:Annex I Part II(7)
+    rationale: Model output reaching a sink unescaped is an ordinary product vulnerability that
+      happens to have been reached through a model. Where the system ships as a product with digital
+      elements, that is squarely the CRA's essential requirements and its vulnerability-handling
+      duty, and a finding here is the kind of thing that duty exists to have found and fixed.
+  llm05-html-injection:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - cra:Annex I Part I(2)(a)
+    - cra:Art.13(8)
+    - cra:Annex I Part II(7)
+    rationale: Model output reaching a sink unescaped is an ordinary product vulnerability that
+      happens to have been reached through a model. Where the system ships as a product with digital
+      elements, that is squarely the CRA's essential requirements and its vulnerability-handling
+      duty, and a finding here is the kind of thing that duty exists to have found and fixed.
+  llm05-link-exfil:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - cra:Annex I Part I(2)(a)
+    - cra:Art.13(8)
+    - cra:Annex I Part II(7)
+    rationale: Model output reaching a sink unescaped is an ordinary product vulnerability that
+      happens to have been reached through a model. Where the system ships as a product with digital
+      elements, that is squarely the CRA's essential requirements and its vulnerability-handling
+      duty, and a finding here is the kind of thing that duty exists to have found and fixed.
+  llm05-markdown-exfil:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - cra:Annex I Part I(2)(a)
+    - cra:Art.13(8)
+    - cra:Annex I Part II(7)
+    rationale: Model output reaching a sink unescaped is an ordinary product vulnerability that
+      happens to have been reached through a model. Where the system ships as a product with digital
+      elements, that is squarely the CRA's essential requirements and its vulnerability-handling
+      duty, and a finding here is the kind of thing that duty exists to have found and fixed.
+  llm05-path-traversal:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - cra:Annex I Part I(2)(a)
+    - cra:Art.13(8)
+    - cra:Annex I Part II(7)
+    rationale: Model output reaching a sink unescaped is an ordinary product vulnerability that
+      happens to have been reached through a model. Where the system ships as a product with digital
+      elements, that is squarely the CRA's essential requirements and its vulnerability-handling
+      duty, and a finding here is the kind of thing that duty exists to have found and fixed.
+  llm05-shell-metachar:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - cra:Annex I Part I(2)(a)
+    - cra:Art.13(8)
+    - cra:Annex I Part II(7)
+    rationale: Model output reaching a sink unescaped is an ordinary product vulnerability that
+      happens to have been reached through a model. Where the system ships as a product with digital
+      elements, that is squarely the CRA's essential requirements and its vulnerability-handling
+      duty, and a finding here is the kind of thing that duty exists to have found and fixed.
+  llm05-sqli-in-output:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - cra:Annex I Part I(2)(a)
+    - cra:Art.13(8)
+    - cra:Annex I Part II(7)
+    rationale: Model output reaching a sink unescaped is an ordinary product vulnerability that
+      happens to have been reached through a model. Where the system ships as a product with digital
+      elements, that is squarely the CRA's essential requirements and its vulnerability-handling
+      duty, and a finding here is the kind of thing that duty exists to have found and fixed.
+  llm05-template-injection:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - cra:Annex I Part I(2)(a)
+    - cra:Art.13(8)
+    - cra:Annex I Part II(7)
+    rationale: Model output reaching a sink unescaped is an ordinary product vulnerability that
+      happens to have been reached through a model. Where the system ships as a product with digital
+      elements, that is squarely the CRA's essential requirements and its vulnerability-handling
+      duty, and a finding here is the kind of thing that duty exists to have found and fixed.
+  llm05-unsafe-code:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - cra:Annex I Part I(2)(a)
+    - cra:Art.13(8)
+    - cra:Annex I Part II(7)
+    rationale: Model output reaching a sink unescaped is an ordinary product vulnerability that
+      happens to have been reached through a model. Where the system ships as a product with digital
+      elements, that is squarely the CRA's essential requirements and its vulnerability-handling
+      duty, and a finding here is the kind of thing that duty exists to have found and fixed.
+  llm06-autonomous-action:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.13(1)
+    rationale: 'An agent taking an action outside what its operator intended is evidence about the
+      system''s behaviour under adversarial input, and about whether the information given to a
+      deployer was sufficient for them to understand and control it. It is NOT evidence about human
+      oversight under Article 14: whether a human could intervene is a question about the deployment,
+      not about what the model did.'
+  llm06-delegated-authoring:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.13(1)
+    rationale: 'An agent taking an action outside what its operator intended is evidence about the
+      system''s behaviour under adversarial input, and about whether the information given to a
+      deployer was sufficient for them to understand and control it. It is NOT evidence about human
+      oversight under Article 14: whether a human could intervene is a question about the deployment,
+      not about what the model did.'
+  llm06-mcp-tool-poisoning:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.13(1)
+    rationale: 'An agent taking an action outside what its operator intended is evidence about the
+      system''s behaviour under adversarial input, and about whether the information given to a
+      deployer was sufficient for them to understand and control it. It is NOT evidence about human
+      oversight under Article 14: whether a human could intervene is a question about the deployment,
+      not about what the model did.'
+  llm06-out-of-scope-tool:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.13(1)
+    rationale: 'An agent taking an action outside what its operator intended is evidence about the
+      system''s behaviour under adversarial input, and about whether the information given to a
+      deployer was sufficient for them to understand and control it. It is NOT evidence about human
+      oversight under Article 14: whether a human could intervene is a question about the deployment,
+      not about what the model did.'
+  llm06-quantity-manipulation:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.13(1)
+    rationale: 'An agent taking an action outside what its operator intended is evidence about the
+      system''s behaviour under adversarial input, and about whether the information given to a
+      deployer was sufficient for them to understand and control it. It is NOT evidence about human
+      oversight under Article 14: whether a human could intervene is a question about the deployment,
+      not about what the model did.'
+  llm06-role-escalation:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.13(1)
+    rationale: 'An agent taking an action outside what its operator intended is evidence about the
+      system''s behaviour under adversarial input, and about whether the information given to a
+      deployer was sufficient for them to understand and control it. It is NOT evidence about human
+      oversight under Article 14: whether a human could intervene is a question about the deployment,
+      not about what the model did.'
+  llm06-scope-creep:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.13(1)
+    rationale: 'An agent taking an action outside what its operator intended is evidence about the
+      system''s behaviour under adversarial input, and about whether the information given to a
+      deployer was sufficient for them to understand and control it. It is NOT evidence about human
+      oversight under Article 14: whether a human could intervene is a question about the deployment,
+      not about what the model did.'
+  llm06-third-party-action:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.13(1)
+    rationale: 'An agent taking an action outside what its operator intended is evidence about the
+      system''s behaviour under adversarial input, and about whether the information given to a
+      deployer was sufficient for them to understand and control it. It is NOT evidence about human
+      oversight under Article 14: whether a human could intervene is a question about the deployment,
+      not about what the model did.'
+  llm06-tool-arg-injection:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.13(1)
+    rationale: 'An agent taking an action outside what its operator intended is evidence about the
+      system''s behaviour under adversarial input, and about whether the information given to a
+      deployer was sufficient for them to understand and control it. It is NOT evidence about human
+      oversight under Article 14: whether a human could intervene is a question about the deployment,
+      not about what the model did.'
+  llm06-tool-call-from-injection:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.13(1)
+    rationale: 'An agent taking an action outside what its operator intended is evidence about the
+      system''s behaviour under adversarial input, and about whether the information given to a
+      deployer was sufficient for them to understand and control it. It is NOT evidence about human
+      oversight under Article 14: whether a human could intervene is a question about the deployment,
+      not about what the model did.'
+  llm06-tool-chain:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.13(1)
+    rationale: 'An agent taking an action outside what its operator intended is evidence about the
+      system''s behaviour under adversarial input, and about whether the information given to a
+      deployer was sufficient for them to understand and control it. It is NOT evidence about human
+      oversight under Article 14: whether a human could intervene is a question about the deployment,
+      not about what the model did.'
+  llm06-tool-idor:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.13(1)
+    rationale: 'An agent taking an action outside what its operator intended is evidence about the
+      system''s behaviour under adversarial input, and about whether the information given to a
+      deployer was sufficient for them to understand and control it. It is NOT evidence about human
+      oversight under Article 14: whether a human could intervene is a question about the deployment,
+      not about what the model did.'
+  llm06-tool-sqli:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.13(1)
+    rationale: 'An agent taking an action outside what its operator intended is evidence about the
+      system''s behaviour under adversarial input, and about whether the information given to a
+      deployer was sufficient for them to understand and control it. It is NOT evidence about human
+      oversight under Article 14: whether a human could intervene is a question about the deployment,
+      not about what the model did.'
+  llm06-tool-ssrf:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.13(1)
+    rationale: 'An agent taking an action outside what its operator intended is evidence about the
+      system''s behaviour under adversarial input, and about whether the information given to a
+      deployer was sufficient for them to understand and control it. It is NOT evidence about human
+      oversight under Article 14: whether a human could intervene is a question about the deployment,
+      not about what the model did.'
+  llm06-tool-unapproved-send:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.13(1)
+    rationale: 'An agent taking an action outside what its operator intended is evidence about the
+      system''s behaviour under adversarial input, and about whether the information given to a
+      deployer was sufficient for them to understand and control it. It is NOT evidence about human
+      oversight under Article 14: whether a human could intervene is a question about the deployment,
+      not about what the model did.'
+  llm06-unconfirmed-write:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.13(1)
+    rationale: 'An agent taking an action outside what its operator intended is evidence about the
+      system''s behaviour under adversarial input, and about whether the information given to a
+      deployer was sufficient for them to understand and control it. It is NOT evidence about human
+      oversight under Article 14: whether a human could intervene is a question about the deployment,
+      not about what the model did.'
+  llm06-unverified-privilege:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - ai-act:Art.13(1)
+    rationale: 'An agent taking an action outside what its operator intended is evidence about the
+      system''s behaviour under adversarial input, and about whether the information given to a
+      deployer was sufficient for them to understand and control it. It is NOT evidence about human
+      oversight under Article 14: whether a human could intervene is a question about the deployment,
+      not about what the model did.'
+  llm07-guardrail-enumeration:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm07-incremental-extraction:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm07-pretext-disclosure:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm07-prompt-completion-priming:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm07-system-prompt-encoded:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm07-system-prompt-paraphrase:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm07-system-prompt-verbatim:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm07-tool-schema-leak:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm08-citation-leak:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm08-embedding-collision:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm08-embedding-inversion-offline:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm08-index-pollution:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm08-retrieval-authz-bypass:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm08-retrieval-poisoning:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm08-stale-index:
+    obligations:
+    - ai-act:Art.15(1)
+    - dora:Art.9(4)
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    rationale: Getting the system to disclose its configuration, its context or another party's
+      data is a confidentiality failure of the deployed system, which is what the accuracy, robustness
+      and cybersecurity duty and the sector security duties are about. It is not evidence about
+      the training data, which is a different question with a different answer.
+  llm09-fabricated-citation:
+    obligations:
+    - ai-act:Art.15(1)
+    - ai-act:Art.50(5)
+    rationale: Fabricated output is an accuracy finding. It reaches Article 50(5) only where the
+      deployment generates or manipulates content presented as genuine, and a reviewer should drop
+      that second mapping where it does not.
+  llm09-fabricated-policy:
+    obligations:
+    - ai-act:Art.15(1)
+    - ai-act:Art.50(5)
+    rationale: Fabricated output is an accuracy finding. It reaches Article 50(5) only where the
+      deployment generates or manipulates content presented as genuine, and a reviewer should drop
+      that second mapping where it does not.
+  llm09-hallucinated-package:
+    obligations:
+    - ai-act:Art.15(1)
+    - ai-act:Art.50(5)
+    rationale: Fabricated output is an accuracy finding. It reaches Article 50(5) only where the
+      deployment generates or manipulates content presented as genuine, and a reviewer should drop
+      that second mapping where it does not.
+  llm09-overreliance:
+    obligations:
+    - ai-act:Art.15(1)
+    - ai-act:Art.50(5)
+    rationale: Fabricated output is an accuracy finding. It reaches Article 50(5) only where the
+      deployment generates or manipulates content presented as genuine, and a reviewer should drop
+      that second mapping where it does not.
+  llm09-sycophancy:
+    obligations:
+    - ai-act:Art.15(1)
+    - ai-act:Art.50(5)
+    rationale: Fabricated output is an accuracy finding. It reaches Article 50(5) only where the
+      deployment generates or manipulates content presented as genuine, and a reviewer should drop
+      that second mapping where it does not.
+  llm10-context-exhaustion:
+    obligations:
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 13
+    - dora:Art.9(4)
+    rationale: Driving cost or latency until a service degrades is an availability finding. It bears
+      on the sector duties to protect services and to handle incidents, and deliberately not on
+      the AI Act's accuracy and robustness duty, which is about the system behaving correctly rather
+      than about it staying up.
+  llm10-denial-of-wallet:
+    obligations:
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 13
+    - dora:Art.9(4)
+    rationale: Driving cost or latency until a service degrades is an availability finding. It bears
+      on the sector duties to protect services and to handle incidents, and deliberately not on
+      the AI Act's accuracy and robustness duty, which is about the system behaving correctly rather
+      than about it staying up.
+  llm10-token-amplification:
+    obligations:
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 13
+    - dora:Art.9(4)
+    rationale: Driving cost or latency until a service degrades is an availability finding. It bears
+      on the sector duties to protect services and to handle incidents, and deliberately not on
+      the AI Act's accuracy and robustness duty, which is about the system behaving correctly rather
+      than about it staying up.
+  llm10-tool-call-loop:
+    obligations:
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 7
+    - digitalsikkerhetsloven:digitalsikkerhetsloven § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 10
+    - digitalsikkerhetsloven:digitalsikkerhetsforskriften § 13
+    - dora:Art.9(4)
+    rationale: Driving cost or latency until a service degrades is an availability finding. It bears
+      on the sector duties to protect services and to handle incidents, and deliberately not on
+      the AI Act's accuracy and robustness duty, which is about the system behaving correctly rather
+      than about it staying up.

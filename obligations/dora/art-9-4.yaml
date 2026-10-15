@@ -1,0 +1,27 @@
+id: dora:Art.9(4)
+instrument: dora
+citation: Art.9(4)
+title: Protection and prevention
+applies_from: '2025-01-17'
+role: entity
+system_class:
+- important-entity
+summary: As part of the framework the entity must develop an information security policy and, on
+  a risk basis, put in place network and infrastructure management allowing affected assets to be
+  isolated, least-privilege physical and logical access controls, strong authentication and cryptographic
+  key protection with encryption driven by data classification, documented ICT change management
+  covering software and security parameters, and comprehensive patch and update policies.
+evidence_expected: The information security policy; access control and privileged access records;
+  authentication and key management configuration and standards; the change management procedure
+  with approval and test records for changes to the AI system, its prompts and its security parameters;
+  patch policy and current patch state.
+verifiable: hybrid
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: Point (e) requires change management to cover security parameters, which in an LLM deployment
+  reasonably extends to system prompts, guardrail configuration and model version pinning; that
+  reading is an inference, not something the text says about AI. A probe can demonstrate weak authentication,
+  excessive privilege or an unlogged configuration change, so it can establish failure, but the
+  existence of the policies and the change process is a documentary question.

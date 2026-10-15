@@ -1,0 +1,21 @@
+id: ai-act:Art.15(3)
+instrument: ai-act
+citation: Art.15(3)
+title: Declaration of accuracy levels and metrics in the instructions for use
+applies_from: '2027-12-02'
+role: provider
+system_class:
+- annex-iii-high-risk
+summary: The accuracy levels of the system and the metrics used to express them must be stated in
+  the instructions that accompany it.
+evidence_expected: The passage of the instructions for use carrying the accuracy figures and the
+  named metrics, traceable back to the test records that produced them.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: Review, not hybrid. The duty is to declare, and a probe cannot establish whether a declaration
+  was made. A red team finding that real-world accuracy falls short of the declared figure is evidence
+  about Art 15(1), not about this paragraph. Overlaps Art 13(3)(b)(ii). Unamended by the Omnibus.
+  For Annex I product-embedded high-risk systems the date is 2028-08-02.

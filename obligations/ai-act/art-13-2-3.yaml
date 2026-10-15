@@ -1,0 +1,28 @@
+id: ai-act:Art.13(2)-(3)
+instrument: ai-act
+citation: Art.13(2)-(3)
+title: Instructions for use and their required content
+applies_from: '2027-12-02'
+role: provider
+system_class:
+- annex-iii-high-risk
+summary: The system must ship with instructions for use that are concise, complete, correct, clear
+  and genuinely accessible to deployers. A fixed minimum content list applies, covering provider
+  identity, intended purpose, performance limits, the tested accuracy, robustness and cybersecurity
+  levels and what can degrade them, foreseeable misuse risks, explainability features, performance
+  on specific groups, input-data specifications, pre-determined changes, the human oversight measures,
+  compute and maintenance needs, and how deployers can collect and read the logs.
+evidence_expected: The instructions-for-use document itself, checked line by line against the paragraph
+  3 list, with each required item present and traceable to the underlying test or design record
+  rather than described in general terms.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'A clean review item: the obligation is a document with an enumerated content list, and no
+  probe of a deployed system can establish that the document exists or is complete. A red team can
+  show a declared performance figure is not met in the field, but that bears on Art 15(1), not on
+  whether the declaration was made. Paragraph 3(b)(ii) is the hook that pulls Art 15 test results
+  into the documentation, and 3(f) is the hook for Art 12 logs. Unamended by the Omnibus. For Annex
+  I product-embedded high-risk systems the date is 2028-08-02.'

@@ -1,0 +1,28 @@
+id: ai-act:Art.14(1)-(3)
+instrument: ai-act
+citation: Art.14(1)-(3)
+title: Human oversight by design
+applies_from: '2027-12-02'
+role: provider
+system_class:
+- annex-iii-high-risk
+summary: The system must be designed and developed, including its human-machine interface, so that
+  natural persons can effectively oversee it throughout the period it is in use. That oversight
+  must aim to prevent or minimise risks to health, safety or fundamental rights arising either from
+  use as intended or from reasonably foreseeable misuse, with particular attention to risks that
+  remain despite the other high-risk requirements, and the measures must be commensurate with the
+  system's risk, autonomy and context of use, built into the product by the provider where technically
+  feasible, identified by the provider for the deployer to implement, or both.
+evidence_expected: 'The oversight design: which measures are built into the product and which are
+  handed to the deployer, the proportionality reasoning against the system''s autonomy and context
+  of use, and the interface artefacts that implement them.'
+verifiable: hybrid
+status: active
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: An adversarial run can show oversight is not effective in practice, for instance that a reviewer
+  is given no basis on which to disagree with the system. Whether the provider identified and allocated
+  the measures before placing the system on the market is only visible on review. Unamended by the
+  Omnibus. For Annex I product-embedded high-risk systems the date is 2028-08-02. Summary replaced
+  on review against the consolidated text.

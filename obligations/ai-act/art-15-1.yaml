@@ -1,0 +1,24 @@
+id: ai-act:Art.15(1)
+instrument: ai-act
+citation: Art.15(1)
+title: Appropriate accuracy, robustness and cybersecurity, consistent over the lifecycle
+applies_from: '2027-12-02'
+role: provider
+system_class:
+- annex-iii-high-risk
+summary: A high-risk system must be designed and built to reach an appropriate level of accuracy,
+  robustness and cybersecurity, and to hold that level consistently throughout its life. This is
+  the umbrella duty that the rest of the article elaborates.
+evidence_expected: Measured accuracy, robustness and security results against the stated intended
+  purpose, the reasoning for why those levels count as appropriate for this use, and evidence of
+  monitoring over time showing performance has not drifted away from them.
+verifiable: hybrid
+status: active
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: A measurement campaign produces direct evidence of the levels achieved and can show a shortfall.
+  But what level is appropriate is a judgement against intended purpose, and the duty is framed
+  as one of design and development plus consistency over the lifecycle, neither of which a point-in-time
+  run establishes. Unamended by the Omnibus. For Annex I product-embedded high-risk systems the
+  date is 2028-08-02.

@@ -1,0 +1,24 @@
+id: ai-act:Art.26(7)
+instrument: ai-act
+citation: Art.26(7)
+title: Informing workers before workplace deployment
+applies_from: '2027-12-02'
+role: deployer
+system_class:
+- annex-iii-high-risk
+summary: An employer deploying a high-risk system in the workplace must tell workers' representatives
+  and the affected workers, before putting it into service or using it, that they will be subject
+  to it. The information follows applicable Union and national rules on informing workers and their
+  representatives.
+evidence_expected: The notification itself with its date, proof it went to both the representatives
+  and the affected workers, and evidence it preceded putting the system into service, together with
+  the national information and consultation rules relied on.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'The timing is the compliance point: the notice must come before the system is put into service
+  or used, so a notification dated after go-live does not discharge it. National information and
+  consultation law varies, so the applicable procedure must be identified per Member State. Unamended
+  by the Omnibus. For Annex I product-embedded high-risk systems the date is 2028-08-02.'

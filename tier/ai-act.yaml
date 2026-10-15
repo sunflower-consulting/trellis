@@ -1,0 +1,191 @@
+# Classification rules: an AI system's description -> its risk class under the AI Act.
+#
+# WHAT THIS IS, AND THE MISTAKE IT IS BUILT TO AVOID.
+#
+# This is not a classifier. It is a set of questions with the reasoning attached, and
+# it is designed to REFUSE rather than guess, because the two ways of being wrong here
+# are not symmetrical:
+#
+#   over-classify  a client spends a year on obligations that never applied
+#   under-classify a client ships a high-risk system with none of them
+#
+# Both are bad and the second is worse, so the rules below resolve genuine doubt
+# upwards and say they have done so. Where the answer needs legal judgement rather
+# than a fact about the system, the output is `needs-legal-review` and the question
+# that must be put to a lawyer. A tool that returns a confident class for a system
+# nobody has thought about is worse than no tool.
+#
+# TWO THINGS A NAIVE VERSION OF THIS GETS WRONG.
+#
+# The Annex III AREA does not decide coverage. The match happens against specific
+# points of the Annex and the system's intended purpose, not against the heading. A
+# system is not high-risk for being "in employment"; it is high-risk for being used in
+# recruitment, task allocation, promotion or performance evaluation. Classifying by
+# area label alone over-classifies systematically, which is how a compliance tool
+# loses the trust of the engineers who have to act on it.
+#
+# And Article 6(3) carves out systems performing narrow procedural tasks, improving
+# the result of previously completed human activity, detecting decision patterns
+# without replacing human assessment, or doing preparatory work -- unless the system
+# profiles natural persons, in which case the carve-out does not apply at all. A rule
+# set that omits this returns high-risk for most of a bank's internal tooling.
+#
+# last_checked: 2026-10-15
+# source: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689
+schema_version: 1
+
+#: The classes this can produce. `obligations/` keys its `system_class` to these, and
+#: a test asserts the join closes in both directions.
+classes:
+  prohibited:
+    label: Prohibited practice
+    note: Article 5. Not a risk tier to manage; a thing that may not be deployed.
+  annex-iii-high-risk:
+    label: High-risk, stand-alone (Annex III)
+  annex-i-high-risk:
+    label: High-risk, embedded in a regulated product (Annex I)
+  gpai:
+    label: General-purpose AI model
+  gpai-systemic-risk:
+    label: General-purpose AI model with systemic risk
+  limited-risk:
+    label: Transparency obligations only
+    note: >-
+      A chatbot a person interacts with, or a system generating synthetic content.
+      This is where most assistant deployments land, and the obligations are real
+      even though the label sounds mild.
+  minimal-risk:
+    label: No specific obligations under the Act
+  important-entity:
+    label: In scope of DORA or the Digital Security Act
+    note: Not an AI Act class. Here because the catalogue keys sector duties to it.
+  ict-third-party:
+    label: ICT third-party service provider under DORA
+  product-with-digital-elements:
+    label: In scope of the Cyber Resilience Act
+  samfunnsviktig-tjeneste:
+    label: Provider of a socially important service (digitalsikkerhetsloven)
+    note: >-
+      Norway's own category, not NIS2's essential/important split. The statute
+      transposes NIS1 through the EEA agreement and Norway has not transposed NIS2,
+      so using NIS2 vocabulary here would misstate which regime a client is in.
+  digital-tjeneste:
+    label: Provider of a digital service (digitalsikkerhetsloven)
+  needs-legal-review:
+    label: Cannot be determined from the description
+    note: >-
+      The honest output when the answer turns on intended purpose, on whether a
+      carve-out applies, or on a fact nobody has established. Carries the question to
+      put to a lawyer rather than a guess.
+
+# ---------------------------------------------------------------------------------
+# The questions, in order. The first that resolves wins, which is why Article 5 is
+# first: a prohibited practice is not a high-risk system to be managed.
+questions:
+  - id: prohibited
+    ask: >-
+      Does the system do any of the things Article 5 forbids outright - manipulative
+      or exploitative techniques causing significant harm, social scoring, untargeted
+      scraping of facial images, emotion inference in workplaces or education outside
+      medical or safety uses, or biometric categorisation inferring protected
+      characteristics?
+    if_yes: prohibited
+    note: >-
+      Asked first and asked plainly. A deployment usually drifts into one of these
+      through a feature nobody framed that way - an engagement-optimising assistant
+      that learns to exploit a vulnerability, a support bot inferring mood to route
+      tickets.
+
+  - id: annex-i-embedded
+    ask: >-
+      Is the AI a safety component of, or itself, a product covered by the Union
+      harmonisation legislation in Annex I - medical devices, machinery, vehicles,
+      lifts, toys and the rest - requiring third-party conformity assessment?
+    if_yes: annex-i-high-risk
+    note: Different and later date from stand-alone Annex III systems.
+
+  - id: annex-iii-area
+    ask: >-
+      Does the system's INTENDED PURPOSE fall within one of the eight Annex III areas
+      below, at the level of the specific use rather than the area heading?
+    if_no: transparency
+    if_yes: annex-iii-carve-out
+    areas:
+      biometrics: >-
+        Remote biometric identification, biometric categorisation by protected
+        attributes, emotion recognition. Biometric verification - confirming someone
+        is who they claim - is carved out in the Annex itself.
+      critical-infrastructure: >-
+        Safety components in the management and operation of critical digital
+        infrastructure, road traffic, or the supply of water, gas, heating and
+        electricity.
+      education: >-
+        Admission or assignment to institutions, evaluating learning outcomes,
+        assessing the appropriate level of education, monitoring and detecting
+        prohibited behaviour during tests.
+      employment: >-
+        Recruitment and selection, decisions on terms, promotion and termination,
+        task allocation, and monitoring or evaluating performance and behaviour.
+      essential-services: >-
+        Eligibility for public assistance benefits and services, creditworthiness and
+        credit scoring, risk assessment and pricing in life and health insurance,
+        and emergency call triage and dispatch.
+      law-enforcement: >-
+        Risk of offending or re-offending, polygraph-like tools, evidence evaluation,
+        profiling in the course of detection and investigation. Note the Annex's own
+        carve-out for financial-fraud detection.
+      migration: >-
+        Risk assessments on persons entering, examination of asylum, visa and
+        residence applications, and detection of irregular immigration.
+      justice-democracy: >-
+        Assisting judicial authorities in researching and interpreting facts and law,
+        and influencing the outcome of an election or referendum or voting behaviour.
+
+  - id: annex-iii-carve-out
+    ask: >-
+      Does Article 6(3) apply - the system performs a narrow procedural task, improves
+      the result of a previously completed human activity, detects decision patterns
+      or deviations without replacing or influencing human assessment, or performs
+      preparatory work?
+    if_yes: needs-legal-review
+    if_no: annex-iii-high-risk
+    note: >-
+      Resolved to review rather than to minimal-risk on purpose. The carve-out does
+      NOT apply where the system profiles natural persons, and "does not influence
+      human assessment" is a claim about how a decision is really made rather than
+      about what the documentation says. That is a question for a lawyer with the
+      deployment in front of them, and a tool that answered it would be guessing at
+      the one point where guessing is expensive.
+
+  - id: transparency
+    ask: >-
+      Does the system interact directly with people, generate synthetic audio, image,
+      video or text, or recognise emotions?
+    if_yes: limited-risk
+    if_no: minimal-risk
+    note: >-
+      Where a customer-facing assistant lands when it is not high-risk. The
+      obligations are disclosure and marking, they are not onerous, and they are the
+      ones most often missed because the label reads as "nothing to do here".
+
+# ---------------------------------------------------------------------------------
+# Asked alongside, not instead. A system can be minimal-risk under the AI Act and
+# still carry heavy duties because of who deploys it.
+also_ask:
+  - id: dora
+    ask: Is the deployer a financial entity in scope of DORA?
+    if_yes: important-entity
+  - id: dora-third-party
+    ask: Does the organisation SUPPLY this system to financial entities?
+    if_yes: ict-third-party
+  - id: cra
+    ask: Is the system placed on the EU market as, or inside, a product with digital elements?
+    if_yes: product-with-digital-elements
+
+# ---------------------------------------------------------------------------------
+open_checks:
+  - >-
+    Whether the Digital Omnibus changed the treatment of AI used solely for
+    non-safety purposes such as user assistance or optimisation. Seen in secondary
+    sources, not confirmed against the official text, and deliberately NOT encoded
+    above. Confirm on EUR-Lex before any rule here relies on it.

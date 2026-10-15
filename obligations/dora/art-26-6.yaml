@@ -1,0 +1,23 @@
+id: dora:Art.26(6)
+instrument: dora
+citation: Art.26(6)
+title: Advanced testing of ICT tools, systems and processes based on TLPT
+applies_from: '2025-01-17'
+role: entity
+system_class:
+- important-entity
+summary: Once reports and remediation plans have been agreed at the end of testing, the entity and,
+  where relevant, the external testers must give the designated authority a summary of the relevant
+  findings, the remediation plans, and documentation showing the test was conducted as required.
+evidence_expected: The summary findings report, the remediation plans, and the supporting documentation
+  pack as submitted, with submission dates; the authority's acknowledgement; under Art.26(7), the
+  attestation received and the notification of it to the competent authority.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: The content and timing are set by Commission Delegated Regulation (EU) 2025/1190 Art.12(7)
+  and Annex VII for the summary report and Art.13 for the remediation plan, and the attestation
+  content by its Art.14 and Annex VIII. A deliverable intended to support this submission has to
+  be built to the Annex VII structure, not to a generic pen-test report format.

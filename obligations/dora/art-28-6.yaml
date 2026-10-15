@@ -1,0 +1,24 @@
+id: dora:Art.28(6)
+instrument: dora
+citation: Art.28(6)
+title: General principles
+applies_from: '2025-01-17'
+role: entity
+system_class:
+- ict-third-party
+summary: In exercising access, inspection and audit rights over a provider the entity must predetermine,
+  on a risk basis, how often audits and inspections occur and which areas they cover, following
+  commonly accepted audit standards. Where the arrangement involves high technical complexity, the
+  entity must verify that the auditors, internal or external, have the skills and knowledge to perform
+  the audits effectively.
+evidence_expected: The risk-based audit plan for each provider with frequency and scope set in advance;
+  the audit standard applied; the documented competence assessment of the auditors where the arrangement
+  is technically complex; completed provider audit reports.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: The auditor-competence requirement for high technical complexity is the natural hook for
+  insisting on AI-specific expertise when auditing a model or inference provider, though the text
+  speaks of technical complexity generally and says nothing about AI.

@@ -1,0 +1,33 @@
+id: digitalsikkerhetsloven:digitalsikkerhetsforskriften § 17
+instrument: digitalsikkerhetsloven
+citation: digitalsikkerhetsforskriften § 17
+title: Varslingsplikt (notification duty)
+applies_from: '2025-10-01'
+role: entity
+system_class:
+- samfunnsviktig-tjeneste
+- digital-tjeneste
+summary: A notification under the act's §§ 8 or 11 goes to the supervisory authority with a copy
+  to the national contact point, and must be sent within 24 hours of the provider learning of the
+  incident. The information must be updated within 72 hours, and a fuller incident report, covering
+  the same points plus the remedial measures taken, is due within a month of the first notification.
+evidence_expected: The notification at each of the three stages with its required content, namely
+  provider identity, affected service, the incident with likely causes and consequences, number
+  of users affected and cross-border effects, plus the remedial measures in the one-month report.
+verifiable: review
+status: active
+source_url: https://lovdata.no/dokument/SF/forskrift/2025-06-20-1131
+last_checked: '2026-10-15'
+verification: unconfirmed
+notes: 'This is where the Norwegian clock actually lives, not in the statute. A textual wrinkle
+  a client''s lawyers may well raise: the 24-hour sentence is written by reference to a provider
+  of an essential service, even though the provision governs notifications under both § 8 and §
+  11, so whether the 24-hour limit formally binds digital service providers under § 11 is not settled
+  on the face of the text. Reported here as the text reads rather than smoothed over. The supervisory
+  authority may additionally demand status updates. Filed under digitalsikkerhetsloven rather than
+  a NIS2 key: this statute transposes Directive (EU) 2016/1148 (NIS1) through the EEA agreement,
+  and Norway has not transposed NIS2. Labelling it NIS2 would misstate which regime a client is
+  in. Which of the two regimes this binds - tilbydere av samfunnsviktige tjenester or tilbydere
+  av digitale tjenester - was not established from the text, so both are listed and this record
+  is unconfirmed. digitalsikkerhetsloven splits the two at paragraph 6 and paragraph 9, and a reader
+  must check which chapter of the forskrift this sits in.'

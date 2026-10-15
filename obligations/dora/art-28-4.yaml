@@ -1,0 +1,25 @@
+id: dora:Art.28(4)
+instrument: dora
+citation: Art.28(4)
+title: General principles
+applies_from: '2025-01-17'
+role: entity
+system_class:
+- ict-third-party
+summary: Before entering a contract for ICT services the entity must assess whether it supports
+  a critical or important function, check that supervisory conditions for contracting are met, identify
+  and assess all relevant risks including any contribution to ICT concentration risk, complete due
+  diligence confirming the prospective provider is suitable, and identify and assess conflicts of
+  interest.
+evidence_expected: The pre-contractual assessment and due diligence file for each provider, dated
+  before contract signature; the criticality determination with its reasoning; the concentration
+  risk analysis; the conflicts assessment; for an AI provider, due diligence covering its own security
+  posture, subcontracting and data handling.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'The sequencing matters for audit: an assessment produced after the contract was signed does
+  not satisfy a duty expressed as a precondition to entering the arrangement, which is a common
+  finding where AI tools were procured quickly.'

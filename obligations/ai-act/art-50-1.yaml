@@ -1,0 +1,28 @@
+id: ai-act:Art.50(1)
+instrument: ai-act
+citation: Art.50(1)
+title: Disclosure that a person is interacting with an AI system
+applies_from: '2026-08-02'
+role: provider
+system_class:
+- limited-risk
+summary: A provider of an AI system meant to interact directly with people must build it so those
+  people are told they are dealing with an AI system, unless that would be obvious to a reasonably
+  well-informed and observant person in the circumstances. A narrow carve-out exists for systems
+  authorised by law for criminal-offence purposes, subject to safeguards, unless the public can
+  use them to report an offence.
+evidence_expected: The disclosure as presented in the live deployment, captured across entry points
+  and across resumed or embedded sessions, together with the reasoning if obviousness is relied
+  on instead of an express notice.
+verifiable: test
+status: active
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: 'Beyond the briefed article list but squarely within scope, and included because it is one
+  of the very few AI Act duties already in application that a red team can test on a deployed LLM
+  application today. Confirmed to sit in Chapter IV, which Art 113 does not except, so it runs from
+  the general date of application, 2 August 2026, and not from the deferred high-risk dates. It
+  is independent of high-risk classification, hence the system_class value. Testable directly: the
+  notice is either presented or it is not. The obviousness exception involves judgement a probe
+  cannot settle. Unamended by the Omnibus.'

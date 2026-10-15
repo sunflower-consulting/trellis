@@ -1,0 +1,23 @@
+id: ai-act:Art.26(1)
+instrument: ai-act
+citation: Art.26(1)
+title: Deployer use in accordance with the instructions for use
+applies_from: '2027-12-02'
+role: deployer
+system_class:
+- annex-iii-high-risk
+summary: A deployer must put appropriate technical and organisational measures in place to ensure
+  it actually uses the system the way the accompanying instructions say it should be used.
+evidence_expected: The deployment configuration and operating procedures set against the provider's
+  instructions, showing the measures that keep use inside the stated envelope, plus evidence of
+  how out-of-envelope use is prevented or detected.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: For an LLM application this is where system prompts, retrieval configuration, tool access
+  and guardrail settings are checked against what the provider's instructions permit. Paragraph
+  3 preserves other obligations under Union or national law and the deployer's freedom to organise
+  its own resources. Unamended by the Omnibus. For Annex I product-embedded high-risk systems the
+  date is 2028-08-02.

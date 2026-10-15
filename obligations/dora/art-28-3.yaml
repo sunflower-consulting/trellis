@@ -1,0 +1,26 @@
+id: dora:Art.28(3)
+instrument: dora
+citation: Art.28(3)
+title: General principles
+applies_from: '2025-01-17'
+role: entity
+system_class:
+- ict-third-party
+summary: The entity must maintain and keep updated, at entity and where relevant sub-consolidated
+  and consolidated level, a register of information covering all contractual arrangements for ICT
+  services from third-party providers, documented so that arrangements supporting critical or important
+  functions are distinguishable from the rest. It must report at least yearly to the competent authority
+  on new arrangements, provider categories, contract types and services, make the register available
+  on request, and notify planned critical-function arrangements in good time.
+evidence_expected: The register of information in the prescribed template form, with the critical-or-important-function
+  flag set correctly for each arrangement; the annual report submitted to the competent authority;
+  notifications of planned critical-function arrangements; register entries for model, inference
+  and AI tooling providers, including any reached through a reseller or cloud marketplace.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: The templates are set by Commission Implementing Regulation (EU) 2024/2956 of 29 November
+  2024, adopted under Art.28(9). In practice AI service dependencies are frequently missing from
+  or miscategorised in the register, which makes this a high-yield check in an AI assurance engagement.

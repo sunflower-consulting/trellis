@@ -1,0 +1,26 @@
+id: dora:Art.28(8)
+instrument: dora
+citation: Art.28(8)
+title: General principles
+applies_from: '2025-01-17'
+role: entity
+system_class:
+- ict-third-party
+summary: For ICT services supporting critical or important functions the entity must have exit strategies
+  that account for provider failure, service quality deterioration and business disruption, and
+  must be able to exit without disrupting its business, limiting regulatory compliance or harming
+  service to clients. Exit plans must be comprehensive, documented, sufficiently tested and periodically
+  reviewed, with alternative solutions, transition plans for removing services and data, and contingency
+  measures identified.
+evidence_expected: The documented exit and transition plan for each critical provider; the named
+  alternative solution and the analysis of its viability; records of the exit plan being tested
+  and periodically reviewed; the data extraction and migration approach.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng
+last_checked: '2026-10-15'
+verification: source-confirmed
+notes: Hard to satisfy for AI dependencies, because substituting a model rarely preserves behaviour,
+  so a credible exit plan has to address requalification and output differences, not just data portability.
+  Classified review rather than hybrid because the testing contemplated here is exit and transition
+  rehearsal, not an adversarial run against the deployed system.

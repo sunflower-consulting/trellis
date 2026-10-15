@@ -1,0 +1,19 @@
+id: cra:Annex I Part II(4)
+instrument: cra
+citation: Annex I Part II(4)
+title: Vulnerability handling requirements
+applies_from: '2027-12-11'
+role: manufacturer
+system_class:
+- product-with-digital-elements
+summary: Once a security update is out, the manufacturer must share and publicly disclose information
+  about the fixed vulnerability, including its description, affected products, impact, severity
+  and how users can remediate. Publication may be held back where the manufacturer judges the risks
+  of disclosing to outweigh the benefits, but only until users have had a chance to patch.
+evidence_expected: Published advisories mapped to the corresponding fixes, and the written justification
+  for any delayed publication together with the date users could first patch.
+verifiable: review
+status: active
+source_url: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
+last_checked: '2026-10-15'
+verification: source-confirmed
